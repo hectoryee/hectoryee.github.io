@@ -4,23 +4,86 @@ desc: Building a database from scratch.
 published: true
 date: 2018-12-28
 categories: project
-tags: postgres database
+tags: postgres database notebook
 ---
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
-list database \l
-list table \dt
-\dt *.*
-\dt public.*
+To install PostgreSQL follow this [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04).
 
-list schema \dn
+### Installing
+``` sh
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+```
 
-pg_dump dbname > outfile
+### Using Postgres
+Switch to postgres (default) account on your server type:
+``` sh
+sudo -i -u postgres
+```
+Access PostgreSQL prompt:
+``` sh
+psql
+```
+Exit interactive Postgres session:
+```
+\q
+```
 
-# Login with postgres user and:
+### New database
+Create a new database:
+``` sh
+sudo -i -u postgres
+createdb database-name
+```
+
+### Changing user and database
+Add user:
+``` sh
+sudo adduser user-name
+```
+Switch user and connect to the user database (after creating one with name same as user-name):
+``` sh
+sudo -i -u user-name
+psql
+```
+Changing it altogether:
+```
 psql my_database -U postgres
-# Enter the postgres password and type in the psql shell:
+```
+Check current connection info:
+```
+\conninfo
+```
+
+### Viewing table and database
+List database:
+```
+\l
+```
+List table:
+```
+\dt
+\dt *.*
+```
+List table in a public schema:
+```
+\dt public.*
+```
+List schema:
+```
+\dn
+```
+
+### Dumping database for backup
+```
+pg_dump dbname > \path\outfile
+```
+
+## Extension used:
+```
 CREATE EXTENSION fuzzystrmatch;
 CREATE EXTENSION pg_trgm;
+```
 
-https://www.rosette.com/blog/overview-fuzzy-name-matching-techniques/
-https://en.wikiversity.org/wiki/Duplicate_record_detection
+Refer [rosette](https://www.rosette.com/blog/overview-fuzzy-name-matching-techniques/) and [wikiversity](https://en.wikiversity.org/wiki/Duplicate_record_detection) for more info.
+
+
