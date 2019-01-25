@@ -5,6 +5,9 @@ published: true
 date: 2018-12-28
 categories: project
 tags: postgres database notebook
+# toc: true
+# toc_label: "My Table of Contents"
+# toc_icon: "cog"
 ---
 To install PostgreSQL follow this [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04).
 
