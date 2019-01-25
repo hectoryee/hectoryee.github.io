@@ -4,7 +4,7 @@ desc: Learning NoSQL.
 published: true
 date: 2019-01-14
 categories: project
-tags: mongodb database
+tags: intern mongodb database
 ---
 
 sudo service mongodb start

@@ -4,7 +4,7 @@ desc: Scraping tweets for sentiment analysis.
 published: true
 date: 2018-09-24
 categories: project
-tags: twitter web-scraping
+tags: intern twitter web-scraping
 ---
 
 Twitter has many a huge amount of data that is suitable to perform analysis. In this post I'll be using Tweepy to scrape Malaysian tweets. The collected data will be used for sentiment analysis.

@@ -4,7 +4,7 @@ desc: Gather data from LinkedIn using Selenium.
 published: true
 date: 2018-12-03
 categories: project
-tags: linkedin web-scraping selenium
+tags: intern linkedin web-scraping selenium
 ---
 
 Normal methods are not workable on LinkedIn, which manages to block many forms of scrape bot. I used [Selenium](https://selenium-python.readthedocs.io/locating-elements.html), a framework used for software testing by emulating a user using a browser.

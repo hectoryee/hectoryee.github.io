@@ -4,7 +4,7 @@ desc: Recommendsation engine.
 published: true
 date: 2018-11-23
 categories: project
-tags: notebook recommendation data-science
+tags: intern notebook recommendation data-science
 ---
 
 ### Collaborative filtering

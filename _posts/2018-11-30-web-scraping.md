@@ -4,7 +4,7 @@ desc: Some tricks to scrape websites.
 published: true
 date: 2018-11-30
 categories: project
-tags: web-scraping
+tags: intern web-scraping
 ---
 
 A [little info](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/ ) before getting to web scraping.

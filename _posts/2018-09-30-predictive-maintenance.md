@@ -4,7 +4,7 @@ desc: Predict machine failure of Kaufland forklifts.
 published: true
 date: 2018-09-30
 categories: project
-tags: prediction data-science
+tags: intern predictive maintenance data-science
 ---
 I participated in Global Datahon 2018.
 dataset:
