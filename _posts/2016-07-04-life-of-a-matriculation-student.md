@@ -1,6 +1,6 @@
 ---
 title: Life of a Matriculation Student
-published: true
+published: false
 date: 2016-07-04
 categories: matriculation
 tags: matriculation
