@@ -9,12 +9,14 @@ tags: intern twitter web-scraping
 
 Twitter has many a huge amount of data that is suitable to perform analysis. In this post I'll be using Tweepy to scrape Malaysian tweets. The collected data will be used for sentiment analysis.
 
+## Twitter API
 Apply for Twitter realtime streaming API from [developer website](https://developer.twitter.com/en/apps).
 
 Create a new app and fill in the details required. Twitter will take some time to reply your application. Mine took two weeks.
 
 I got my keys and access tokens after the application being approved.
 
+## Dependencies
 Libraries used:
 
 - Tweepy is the main Python library I used to access the Twitter API.
@@ -33,6 +35,7 @@ s3 = boto3.resource("s3")
 bucket_name = "malaysian-tweets"
 ```
 
+## Applying Twitter API
 Keys and access tokens are from twitter developer website.
 ```python
 # Authentication details. To  obtain these visit apps.twitter.com
@@ -42,6 +45,7 @@ access_token='your_token'
 access_token_secret='your_token_secret'
 ```
 
+## Downloading Tweets
 Use Tweepy to listen to streaming Twitter data.
 ```python
 # This is the listener, resposible for receiving data
@@ -90,6 +94,8 @@ if __name__ == '__main__':
     stream.filter(locations=[98.933, 0, 124.125, 15])
     # stream.filter(track = "M")
 ```
+
+### Example Tweets
 Example tweets  returned in json format.
 ```
 {
@@ -198,6 +204,10 @@ Example tweets  returned in json format.
     }
 }
 ```
+
+## Run on Cloud
+
+### Amazon EC2
 Streaming API capture tweets in realtime, thus the code has to run continuously. Save the code and upload to Amazon EC2 and let it run.
 
 We can [access EC2 instance using SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
@@ -210,6 +220,7 @@ EC2 will stop running once we log out from terminal. Options are using Tmux or S
 - List all screen session: `screen -ls`
 - Reattach screen session: `screen -r session_id`
 
+### Run on Restart
 To ensure the file runs at all time:
 ```python
 #!/usr/bin/python3
@@ -231,7 +242,8 @@ Ad this line to cron file.
 ```
 @reboot /path/forever
 ```
-All files:
+
+## All Codes
 
 {% gist 8fb39e3e3a27d7832678ed16c7803d6d %}
 {% gist 107c73c4a15d72682d7b11266de0e595 %}

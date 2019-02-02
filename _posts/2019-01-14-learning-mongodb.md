@@ -1,11 +1,13 @@
 ---
 title: Learning Mongodb
-desc: Learning NoSQL.
+desc: Learning NoSQL for the first time.
 published: true
 date: 2019-01-14
 categories: project
 tags: intern mongodb database
 ---
+
+This is a simple wrap up of introduction to MongoDB. I didn't have the chance to work with it unfortunately after I 
 
 sudo service mongodb start
 sudo systemctl status mongodb
