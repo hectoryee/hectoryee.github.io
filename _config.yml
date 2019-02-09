@@ -18,11 +18,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "A student's journal"
 title_separator          : "|"
-name                     : "Hector Yee"
+name                     : "Wayne Yee"
 description              : "A blog to host my thoughts, codes etc."
-url                      : "https://hectoryee.github.io/"
+url                      : "https://wayneyee.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "hectoryee/hectoryee.github.io"
+repository               : "wayneyee/wayneyee.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/hy.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hector Yee"
+  name             : "Wayne Yee"
   avatar           : #"/assets/images/hector.jpg"
   bio              : "Student. Intern."
   location         : "Somewhere, Malaysia"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/HectorYee"
+      url: "https://github.com/wayneyee"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/HectorYee"
+      url: "https://github.com/wayneyee"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

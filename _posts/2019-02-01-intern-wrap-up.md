@@ -81,5 +81,5 @@ I enjoyed the stay at the CADS. I appreciate very much that they did not abuse i
 In the future if I'm applying for internship or jobs, factors to consider:
 - company culture
 - mentorship
-- how will I grow joining the company
+- my growth joining the company
 

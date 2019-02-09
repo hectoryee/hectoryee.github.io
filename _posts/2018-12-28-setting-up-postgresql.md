@@ -84,6 +84,31 @@ CREATE EXTENSION fuzzystrmatch;
 CREATE EXTENSION pg_trgm;
 ```
 
+DROP SCHEMA if exists test_db cascade;
+
+CREATE SCHEMA test_db
+    AUTHORIZATION postgres;
+	
+drop table if exists alumni_db.individual cascade;
+create table alumni_db.individual(
+	name varchar (80) primary key, 
+	gender varchar (7),
+	company varchar (120),
+	title varchar (120),
+	ts timestamp default now()
+	);
+
+drop table if exists alumni_db.enterprise cascade;
+create table alumni_db.enterprise(
+	ind_id char (12) references alumni_db.individual (ind_id) primary key,
+	email varchar (70),
+	mobile_no varchar (30),
+	prev_company varchar (120),
+	prev_title varchar (120),
+	ts timestamp default now()
+	);
+
+
 Refer [rosette](https://www.rosette.com/blog/overview-fuzzy-name-matching-techniques/) and [wikiversity](https://en.wikiversity.org/wiki/Duplicate_record_detection) for more info.
 
 
