@@ -1,6 +1,6 @@
 ---
 title: Scraping Tweets from Twitter using Tweepy and Twitter API
-desc: Scraping tweets for sentiment analysis.
+excerpt: Scraping tweets for sentiment analysis.
 published: true
 date: 2018-09-24
 categories: project

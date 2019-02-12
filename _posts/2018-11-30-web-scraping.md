@@ -1,6 +1,6 @@
 ---
 title: About Web Scraping
-desc: Some tricks to scrape websites.
+excerpt: Some tricks to scrape websites.
 published: true
 date: 2018-11-30
 categories: project

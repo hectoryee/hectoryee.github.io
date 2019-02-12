@@ -1,6 +1,6 @@
 ---
 title: Job Recommendation Engine
-desc: Recommendsation engine.
+excerpt: Recommendsation engine.
 published: true
 date: 2018-11-23
 categories: project

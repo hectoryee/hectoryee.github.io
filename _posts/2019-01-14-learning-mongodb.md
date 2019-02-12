@@ -1,6 +1,6 @@
 ---
 title: Learning Mongodb
-desc: Learning NoSQL for the first time.
+excerpts: Learning NoSQL for the first time.
 published: true
 date: 2019-01-14
 categories: project

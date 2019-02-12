@@ -1,6 +1,6 @@
 ---
 title: Setting Up PostgreSQL
-desc: Building a database from scratch.
+excerpt: Building a database from scratch.
 published: true
 date: 2018-12-28
 categories: project

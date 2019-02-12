@@ -1,6 +1,6 @@
 ---
 title: Predictive Maintenance
-desc: Predict machine failure of Kaufland forklifts.
+excerpt: Predict machine failure of Kaufland forklifts.
 published: true
 date: 2018-09-30
 categories: project
