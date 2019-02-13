@@ -1,6 +1,6 @@
 ---
 title: Backup Ubuntu
-excerpt: Backing up my OS.
+excerpt: Backing up my OS so next time I can just get my whole system up.
 published: true
 date: 2019-02-10
 categories: project

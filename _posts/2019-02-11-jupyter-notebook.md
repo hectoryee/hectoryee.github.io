@@ -1,6 +1,6 @@
 ---
 title: Jupyter Notebook
-excerpt: 
+excerpt: My way of using Jupyter Notebook
 published: true
 date: 2019-02-11
 categories: project

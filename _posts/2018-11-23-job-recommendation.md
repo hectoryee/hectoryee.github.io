@@ -1,11 +1,12 @@
 ---
 title: Job Recommendation Engine
-excerpt: Recommendsation engine.
+excerpt: Recommendation engine based on similarity of job description.
 published: true
 date: 2018-11-23
 categories: project
 tags: intern notebook recommendation data-science
 ---
+
 ## Introduction to Recommender
 Mainly there's two types of recommender, collaborative and content-based recommender.
 
@@ -25,12 +26,10 @@ recommendation is narrow
 ### Hybrid recommender systems
 combine collaborative filtering and content-based filtering, might be more effective sometimes
 
-## Building a Job Recommender
-### Dataset
-Download from [Careerbuilder](https://www.kaggle.com/c/job-recommendation)
-https://github.com/blennon/kaggle/tree/master/careerbuilder
-
-### TOC
+## Job Recommendation
+with dataset from Careerbuilder 
+ 
+## TOC
 * [Import dependencies](#import)
 * [Load dataset](#dataset)
 * [EDA and Preprocessing](#EDA)
@@ -41,10 +40,9 @@ https://github.com/blennon/kaggle/tree/master/careerbuilder
 * [Clean html](#html)
 * [Content based filtering](#content)
  - [job description based recommender](#jobdesc)
- - [similar user based recommender](#similarusers)
-* [Collaborative filtering](#collab) 
+ - [similar user based recommender](#similarusers) 
  
-### Import dependencies <a class="anchor" id="import"></a> 
+## Import dependencies <a class="anchor" id="import"></a> 
 
 **In [1]:**
 
@@ -56,7 +54,7 @@ import pandas as pd
 import numpy as np
 {% endhighlight %}
  
-### Load dataset <a class="anchor" id="dataset"></a> 
+## Load dataset <a class="anchor" id="dataset"></a> 
 
 **In [2]:**
 
@@ -622,17 +620,16 @@ test_users.head()
 
 
  
-### EDA and Preprocessing <a class="anchor" id="EDA"></a> 
+## EDA and Preprocessing <a class="anchor" id="EDA"></a> 
  
-#### Splitting into Training and Testing dataset <a class="anchor"
-id="split"></a> 
+### Splitting into Training and Testing dataset <a class="anchor" id="split"></a> 
  
 with attribute split:
 - users
 - apps
 - user_history 
  
-#### users 
+### users 
 
 **In [11]:**
 
@@ -646,7 +643,7 @@ users_training = users.loc[users['Split'] == 'Train']
 users_testing = users.loc[users['Split'] == 'Test']
 {% endhighlight %}
  
-#### apps 
+### apps 
 
 **In [13]:**
 
@@ -660,7 +657,7 @@ apps_training = apps.loc[apps['Split'] == 'Train']
 apps_testing = apps.loc[apps['Split'] == 'Test']
 {% endhighlight %}
  
-#### user_history 
+### user_history 
 
 **In [15]:**
 
@@ -674,7 +671,7 @@ user_history_training = user_history.loc[user_history['Split'] == 'Train']
 user_history_testing = user_history.loc[user_history['Split'] == 'Test']
 {% endhighlight %}
  
-##### Dataframes
+### Dataframes
 - users_training
 - users_testing
 - apps_training
@@ -682,7 +679,7 @@ user_history_testing = user_history.loc[user_history['Split'] == 'Test']
 - user_history_training
 - user_history_testing 
  
-### Preprocessing <a class="anchor" id="preprocessing"></a>
+## Preprocessing <a class="anchor" id="preprocessing"></a>
 - Considering only US
 - Removing data with empty state 
 
@@ -2015,9 +2012,6 @@ selected by `jobs_US.iloc[0:10000,0:8]`.**
 jobs_US_base_line.head()
 {% endhighlight %}
 
-
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -2106,9 +2100,7 @@ jobs_US_base_line.head()
 </table>
 </div>
 
-
- 
-#### Dataframes
+### Dataframes
 - users_training
 - users_testing
 - apps_training
@@ -2116,7 +2108,7 @@ jobs_US_base_line.head()
 - user_history_training
 - user_history_testing
 
-##### Location
+### Location
 - jobs_US
 - statewise_jobs
 - citywise_jobs
@@ -3057,3 +3049,7 @@ get_job_id(get_recommendations_userwise(47))
   </tbody>
 </table>
 </div>
+
+## Jupyter Notebook
+
+{% gist a9241eaa447549bbc7d4b7a4f3d0ae61 %}

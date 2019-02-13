@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Timetable
-excerpt: 
+excerpt: Sem II 2018/19
 published: true
 date: 2019-02-10
 categories: blog
