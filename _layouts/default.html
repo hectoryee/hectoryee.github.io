@@ -16,6 +16,10 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
+      <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101168377);</script>
+      <script async src="//static.getclicky.com/js"></script>
+      <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101168377ns.gif" /></p></noscript>
+      
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
 

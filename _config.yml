@@ -342,6 +342,9 @@ defaults:
       comments: false
       sidebar:
         nav: "collections"
+      toc: true
+      toc_label: "Table of Contents"
+      toc_icon: "cog"
   # _xian-qing
   - scope:
       path: ""
@@ -354,6 +357,9 @@ defaults:
       comments: false
       sidebar:
         nav: "collections"
+      toc: true
+      toc_label: "Table of Contents"
+      toc_icon: "cog"
 
 # Collections
 collections:

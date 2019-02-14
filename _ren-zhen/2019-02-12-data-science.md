@@ -1,6 +1,6 @@
 ---
 title: "Data Science"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: ""
 ---
 
 https://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/
@@ -41,6 +41,8 @@ https://github.com/chaconnewu/free-data-science-books
 ## Data Scientist
 https://www.datasciencecentral.com/group/resources/forum/topics/comprehensive-list-of-data-science-resources
 
+[40 Techniques Used by Data Scientists](https://www.datasciencecentral.com/profiles/blogs/40-techniques-used-by-data-scientists)
+
 
 
 ## Dataset
@@ -48,22 +50,26 @@ https://www.datasciencecentral.com/group/resources/forum/topics/comprehensive-li
 https://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/
 
 https://www.dataquest.io/blog/free-datasets-for-projects/
+
 https://blog.modeanalytics.com/five-public-dataset/
 
 https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85 
 
 
 
-
 ## Books
 https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html
+
 http://www.wzchen.com/data-science-books/
+
 https://www.analyticbridge.datasciencecentral.com/group/books/forum
 
 
 ## AI Toolkit
 https://ai.google/
+
 https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine
+
 https://github.com/Microsoft/CNTK
 
 https://ai.google/tools/
