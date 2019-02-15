@@ -1,0 +1,15 @@
+---
+layout: archive
+title: xian-qing
+sidebar:
+    nav: "collections"
+---
+
+{% for collections in site.xian-qing %}
+  <h3 class="archive__title">
+    <a href="{{ collections.url }}">
+      {{ collections.title }}
+    </a>
+  </h3>
+  <!-- <div class="archive__item-excerpt">{{ collections.excerpt | markdownify }}</div> -->
+{% endfor %}

@@ -23,21 +23,27 @@ main:
 
 collections:
   - title: ren-zhen
+    url: /collection-archive/#ren-zhen
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Data Science"
+        url: /ren-zhen/2019-02-12-data-science/
+      - title: "Finance"
+        url: /ren-zhen/2019-02-13-finance/
+      - title: "Mathematics"
+        url: /ren-zhen/2019-02-13-mathematics/
 
   - title: xian-qing
+    url: /collection-archive/#xian-qing
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
+      - title: "Book"
+        url: /xian-qing/2019-02-13-book/
+      - title: "FM"
+        url: /xian-qing/2019-02-13-fm/
+      - title: "Manga"
+        url: /xian-qing/2019-02-13-manga/
+      - title: "Music"
+        url: /xian-qing/2019-02-13-music/
+      - title: "Shu Hua"
+        url: /xian-qing/2019-02-13-书画/
+      - title: "Mini Projects"
+        url: /2019-02-14-mini-projects/

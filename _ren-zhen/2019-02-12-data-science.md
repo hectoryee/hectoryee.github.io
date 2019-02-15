@@ -3,114 +3,110 @@ title: "Data Science"
 excerpt: ""
 ---
 
-https://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/
+## News
+- [Hacker News](https://news.ycombinator.com/)
+- [DataTau](http://www.datatau.com/)
+
 
 ## Introduction
-https://www.datasciencecentral.com/profiles/blogs/data-science-cheat-sheet
+- [Data Science Cheat Sheet](https://www.datasciencecentral.com/profiles/blogs/data-science-cheat-sheet)
+    1. Hardware
+    2. Linux environment on Windows laptop
+    3. Basic UNIX commands
+    4. Scripting language
+    5. Python, R, Hadoop and SQL
+    6. Advanced Excel
+    7. Visualization
+    8. Machine Learning
+    9. Projects
+    10. Data Sets
+    11. Miscellaneous
+- [Data science Python notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
+    - Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
+- [Comprehensive list of data science resources](https://www.datasciencecentral.com/group/resources/forum/topics/comprehensive-list-of-data-science-resources)
 
-https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/
 
-https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/
 
-https://github.com/donnemartin/data-science-ipython-notebooks
+## Python
+- [A Complete Tutorial to Learn Data Science with Python from Scratch](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)
+
 
 
 ## Projects
-https://www.kdnuggets.com/tag/data-science
-https://analyticsindiamag.com/popular-data-science-projects-for-aspiring-data-scientists/
-https://www.analyticsvidhya.com/blog/2016/10/17-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
-https://www.quora.com/What-are-some-good-data-science-projects
-https://datasciencedegree.wisconsin.edu/blog/9-powerful-data-visualizations/
+- [Tag: Data Science (987)](https://www.kdnuggets.com/tag/data-science)
+- [11 Popular Data Science Projects For Aspiring Data Scientists](https://www.analyticsvidhya.com/blog/2016/10/)
+- [What are some good data science projects?](https://www.quora.com/What-are-some-good-data-science-projects)
 
 
 
+## [Github Awesome List](https://github.com/sindresorhus/awesome)
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+- [Deep-Learning-Papers-Reading-Roadmap](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)
+- [awesome-datascience](https://github.com/bulutyazilim/awesome-datascience)
+- [free-data-science-books](https://github.com/chaconnewu/free-data-science-books)
 
-https://www.displayr.com/blog/
-
-
-## The Algorithm Design Manual
-https://github.com/ChristosChristofidis/awesome-deep-learning
-https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
-
-https://github.com/bulutyazilim/awesome-datascience
-https://github.com/chaconnewu/free-data-science-books
-
-### https://github.com/sindresorhus/awesome
 
 
 ## Data Scientist
-https://www.datasciencecentral.com/group/resources/forum/topics/comprehensive-list-of-data-science-resources
-
-[40 Techniques Used by Data Scientists](https://www.datasciencecentral.com/profiles/blogs/40-techniques-used-by-data-scientists)
+- [40 Techniques Used by Data Scientists](https://www.datasciencecentral.com/profiles/blogs/40-techniques-used-by-data-scientists)
+- [How can I become a data scientist? by William Chen](https://www.quora.com/How-can-I-become-a-data-scientist-1/answers/4451343)
+- [What are the best, insightful blogs about data, including how businesses are using data?](https://www.quora.com/What-are-the-best-insightful-blogs-about-data-including-how-businesses-are-using-data)
 
 
 
 ## Dataset
-
-https://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/
-
-https://www.dataquest.io/blog/free-datasets-for-projects/
-
-https://blog.modeanalytics.com/five-public-dataset/
-
-https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85 
+- [Some datasets for teaching data science](https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/)
+- [Data Sources for Cool Data Science Projects: Part 1](https://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/)
+- [18 places to find data sets for data science projects](https://www.dataquest.io/blog/free-datasets-for-projects/)
+- [Five Public Datasets, and Lots of Ideas for Exploring Them](https://blog.modeanalytics.com/five-public-dataset/)
 
 
 
-## Books
-https://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html
+## Blogs
+- [What are the best, insightful blogs about data, including how businesses are using data?](https://www.quora.com/What-are-the-best-insightful-blogs-about-data-including-how-businesses-are-using-data)
+- [TDS Team Selections](https://towardsdatascience.com/@TDSteam)
 
-http://www.wzchen.com/data-science-books/
-
-https://www.analyticbridge.datasciencecentral.com/group/books/forum
 
 
 ## AI Toolkit
-https://ai.google/
+- [Google AI](https://ai.google/)
 
-https://docs.microsoft.com/en-us/cognitive-toolkit/setup-cntk-on-your-machine
-
-https://github.com/Microsoft/CNTK
-
-https://ai.google/tools/
-TensorFlow. This includes Torch—a system originally built by researchers in Switzerland—as well as systems like Caffe and Thea
-
-https://education.github.com/pack/offers
 
 
 ## Machine Learning
-https://communities.sas.com/t5/SAS-Data-Mining-and-Machine/Machine-learning-algorithms-cheat-sheet-blog-post/td-p/363568?lightbox-message-images-363568=9185iADBF934CB709C687
+- [Machine Learning Blogs](https://machinelearningblogs.com/)
+- [Machine Learning with R: An Irresponsibly Fast Tutorial](https://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/)
+
 
 
 ## Deep Learning
-https://medium.com/ibm-data-science-experience/deep-learning-with-data-science-experience-8478cc0f81ac
+- [Deep Learning with Data Science Experience](https://medium.com/ibm-data-science-experience/deep-learning-with-data-science-experience-8478cc0f81ac)
 
 
-## Statistics 
-https://www.analyticsvidhya.com/blog/2016/02/free-read-books-statistics-mathematics-data-science/
-https://www.wallstreetmojo.com/top-best-statistics-books/
-https://towardsdatascience.com/june-edition-probability-statistics-machine-learning-fab82bbe36b2
 
-leehc@utar.edu.my
+## Statistics
+- [Data science concepts you need to know! Part 1](https://towardsdatascience.com/introduction-to-statistics-e9d72d818745)
+
 
 
 ## Story-telling
-http://www.juiceanalytics.com/writing/the-ultimate-collection-of-data-storytelling-resources/
-https://www.snapapp.com/blog/5-amazing-ways-impact-your-audience-data-storytelling
+- [Data Storytelling: The Ultimate Collection of Resources](http://www.juiceanalytics.com/writing/the-ultimate-collection-of-data-storytelling-resources/)
+
 
 
 ## Data Visualisation
-https://www.softwareadvice.com/resources/free-open-source-data-visualization-tools/
-https://blog.capterra.com/free-and-open-source-data-visualization-tools/
-https://opensource.com/life/15/6/eight-open-source-data-visualization-tools
+- [Flowing Data](https://flowingdata.com/)
+- [9 Powerful Data Visualizations That Could Change Your View of the World](https://datasciencedegree.wisconsin.edu/blog/9-powerful-data-visualizations/)
+
 
 
 ## Shell Scripting
-http://www.freeos.com/guides/lsst/index.html
+- [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
+- [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/)
+- [Linux Shell Scripting Tutorial v1.05r3 A Beginner's handbook](http://www.freeos.com/guides/lsst/index.html)
 
 
-## Finance
-https://www.thesimpledollar.com/52-personal-finance-books-in-52-weeks/ 
+
 
 ## Anomaly
-https://anomaly.io/blog/
+- [Anomaly](https://anomaly.io/blog/)
