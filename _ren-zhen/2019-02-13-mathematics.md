@@ -18,11 +18,22 @@ excerpt:
 
 
 
-## Linear ALgebra
+## Getting into Data Science
+1. Machine Learning
+2. Linear ALgebra
+3. Calculus
+4. Statistics
+5. Optimisation
+6. Algebra
+7. Discrete Math
 
+
+## Linear ALgebra
 - [MIT Linear Algebra 2010](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
     - [x] Strang, Gilbert. Introduction to Linear Algebra. 5th ed.
     - [Video Lectures](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
+
+
 
 ## Calculus
 
@@ -33,7 +44,9 @@ excerpt:
     - [ ] Edwards, Henry C., and David E. Penney. Multivariable Calculus. 6th ed.
     - [Video Lectures](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/video-lectures/)
 
+
 ----
+
 
 ### Harvard Prerequisites
 Stat 110 recommended.
