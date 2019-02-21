@@ -37,6 +37,10 @@ excerpt: ""
 - [Tag: Data Science (987)](https://www.kdnuggets.com/tag/data-science)
 - [11 Popular Data Science Projects For Aspiring Data Scientists](https://www.analyticsvidhya.com/blog/2016/10/)
 - [What are some good data science projects?](https://www.quora.com/What-are-some-good-data-science-projects)
+- [What are some great final year project ideas in Data Mining, NLP, Machine Learning, Data Analytics for a Btech, CSE student?](https://www.quora.com/What-are-some-great-final-year-project-ideas-in-Data-Mining-NLP-Machine-Learning-Data-Analytics-for-a-Btech-CSE-student/answer/Sakina-Mirza-2)
+- [30 Amazing Machine Learning Projects for the Past Year (v.2018)](https://medium.mybridge.co/30-amazing-machine-learning-projects-for-the-past-year-v-2018-b853b8621ac7)
+- <https://exascale.info/projects/student/>
+
 
 
 
@@ -75,6 +79,9 @@ excerpt: ""
 
 
 ## Machine Learning
+- [Jason's Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit#slide=id.g183f28bdc3_0_90)
+    - [AI Experiments](https://experiments.withgoogle.com/collection/ai)
+    - [Activation Function](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
 - [Machine Learning Blogs](https://machinelearningblogs.com/)
 - [Machine Learning with R: An Irresponsibly Fast Tutorial](https://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/)
 
