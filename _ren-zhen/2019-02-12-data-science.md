@@ -64,7 +64,8 @@ excerpt: ""
 - [Data Sources for Cool Data Science Projects: Part 1](https://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/)
 - [18 places to find data sets for data science projects](https://www.dataquest.io/blog/free-datasets-for-projects/)
 - [Five Public Datasets, and Lots of Ideas for Exploring Them](https://blog.modeanalytics.com/five-public-dataset/)
-
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [A Plethora of Data Set Repositories](https://www.datasciencecentral.com/profiles/blogs/a-plethora-of-data-set-repositories)
 
 
 ## Blogs
@@ -80,6 +81,8 @@ excerpt: ""
 
 ## Machine Learning
 - [Jason's Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit#slide=id.g183f28bdc3_0_90)
+    - [Youtube: But what *is* a Neural Network? | Deep learning, chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
+    - [Google Docs: Face2Face GAN - PGH Machine Learners 2017-07-27](https://docs.google.com/presentation/d/1uYSM7hR8H6aNv6hGkzfS05ojQiuVOgnq5ASLpGy8IGk/edit#slide=id.g249ebeb2f6_0_513)
     - [AI Experiments](https://experiments.withgoogle.com/collection/ai)
     - [Activation Function](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
 - [Machine Learning Blogs](https://machinelearningblogs.com/)

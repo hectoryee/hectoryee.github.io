@@ -27,6 +27,7 @@ excerpt:
 6. Algebra
 7. Discrete Math
 
+- [How to Start Learning Deep Learning](http://ofir.io/How-to-Start-Learning-Deep-Learning/)
 
 ## Linear ALgebra
 - [MIT Linear Algebra 2010](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
