@@ -68,6 +68,17 @@ excerpt: ""
 - [A Plethora of Data Set Repositories](https://www.datasciencecentral.com/profiles/blogs/a-plethora-of-data-set-repositories)
 
 
+
+## Neural Networks
+- [Hacker's guide to Neural Networks](https://karpathy.github.io/neuralnets/)
+
+
+
+## Time Series
+- [11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+
 ## Blogs
 - [What are the best, insightful blogs about data, including how businesses are using data?](https://www.quora.com/What-are-the-best-insightful-blogs-about-data-including-how-businesses-are-using-data)
 - [TDS Team Selections](https://towardsdatascience.com/@TDSteam)
@@ -121,3 +132,9 @@ excerpt: ""
 
 ## Anomaly
 - [Anomaly](https://anomaly.io/blog/)
+
+
+
+## Tensorflow
+- [Docker](https://www.tensorflow.org/install/docker)
+- [Official Docker images: tensorflow/tensorflow](https://hub.docker.com/r/tensorflow/tensorflow/)
