@@ -1,6 +1,6 @@
 ---
 title: "Data Science"
-excerpt: ""
+excerpt: Resources to learn.
 ---
 
 ## News
