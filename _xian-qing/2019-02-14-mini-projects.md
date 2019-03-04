@@ -1,6 +1,6 @@
 ---
-title: "Mathematics"
-excerpt: 
+title: "Mini Projects"
+excerpt: Sidekicks.
 ---
 
 [mini hacking](https://medium.com/hackerpreneur-magazine/how-i-hacked-into-one-of-the-most-popular-dating-websites-4cb7907c3796)

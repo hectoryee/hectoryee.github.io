@@ -1,6 +1,6 @@
 ---
 title: "Mathematics"
-excerpt: 
+excerpt: Back to basics.
 ---
 
 ## Main
