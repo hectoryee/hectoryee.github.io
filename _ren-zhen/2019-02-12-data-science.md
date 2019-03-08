@@ -60,11 +60,48 @@ excerpt: Resources to learn.
 
 
 ## Dataset
+### Dataset Finders:
+
+- [Google Dataset Search (beta)](https://toolbox.google.com/datasetsearch)
+
+
+
+- [The 50 Best Public Datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)
+
+- [fast.ai Datasets](https://course.fast.ai/datasets.html)
+    - image classification
+    - NLP
+    - image localisation
+- [Kaggle](https://www.kaggle.com/datasets)
+- [UCI](https://archive.ics.uci.edu/ml/index.php)
+- [AWS Opendata Registry](https://registry.opendata.aws/)
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [Skymind.ai](https://skymind.ai/wiki/open-datasets)
+- [Forbes](https://www.forbes.com/sites/bernardmarr/2018/02/26/big-data-and-ai-30-amazing-and-free-public-data-sources-for-2018/#328acc6b5f8a)
+- [DataHub](https://datahub.io/)
+- [KDnuggets](https://www.kdnuggets.com/datasets/index.html)
+- [Sajari](https://www.sajari.com/public-data)
+- [r/datasets](https://www.reddit.com/r/datasets)
+
+
+### Data Portals
+
+#### Global
+- [DataPortals: meta-database with 524 data portals](http://dataportals.org/)
+- [OpenDataSoft: a map with more than 2600 data portals](https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/)
+- [Knoema: home to nearly 2.5-billion time series data of 1000 topics from more than 1000 sources](https://knoema.com/atlas/sources)
+
+
+### News Data
+- [FiveThirtyEight](https://data.fivethirtyeight.com/)
+- [BuzzFeedNews/everything](https://github.com/BuzzFeedNews/everything)
+
+
+- [The 50 Best Public Datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)
+- [The 50 Best Free Datasets for Machine Learning](https://gengo.ai/datasets/the-50-best-free-datasets-for-machine-learning/)
 - [Some datasets for teaching data science](https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/)
 - [Data Sources for Cool Data Science Projects: Part 1](https://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/)
 - [18 places to find data sets for data science projects](https://www.dataquest.io/blog/free-datasets-for-projects/)
-- [Five Public Datasets, and Lots of Ideas for Exploring Them](https://blog.modeanalytics.com/five-public-dataset/)
-- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 - [A Plethora of Data Set Repositories](https://www.datasciencecentral.com/profiles/blogs/a-plethora-of-data-set-repositories)
 
 

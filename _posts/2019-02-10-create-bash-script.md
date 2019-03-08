@@ -103,6 +103,7 @@ Start using the new bashrc file:
 ``` bash
 source ~/.bashrc
 ```
+{% gist 1ae4cced70b75b012d1a69c061619fa1 %}
 
-
-[Youtube downloader](https://github.com/rg3/youtube-dl/blob/master/README.md#options)
+## Useful software
+- [Youtube downloader](https://github.com/rg3/youtube-dl/blob/master/README.md#options)
