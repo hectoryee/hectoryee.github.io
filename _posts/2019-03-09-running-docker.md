@@ -7,12 +7,21 @@ categories: project
 tags: notebook tensorflow docker
 ---
 
+## My Running Version
+``` bash
+docker run --runtime=nvidia -it -w /notebooks -p 8888:8888 -v $(realpath ~/project/):/notebooks -e HOST_PERMS="$(id -u):$(id -g)"     tensorflow/tensorflow:nightly-devel-gpu-py3 bash
+
+docker start -ai <container_name>
+
+jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root --no-browser .
+```
+
 ## [Using a Jupyter Notebook within a Docker Container](https://devtalk.nvidia.com/default/topic/1032202/docker-and-nvidia-docker/using-a-jupyter-notebook-within-a-docker-container/)
 ``` bash
 docker run --runtime=nvidia -it -v "/my-local-computer-files/:/my-docker-container/" my-nvidia-container
 ```
 
-### Add flag
+Add flag
 - `-p 8888:8888`
 - `-v "/my-local-computer-files/:/my-docker-container/"`
 
@@ -67,18 +76,9 @@ docker run -v /full/path/to/html/directory:/usr/share/nginx/html:ro -p 8080:80 -
 - `-d` detaches the container from our command line session. Unlike our previous two examples, we don’t want to interact with this container.
 - `nginx` is the name of the image.
 
-## My running version:
-``` bash
-docker run --runtime=nvidia -it -w /notebooks -p 8888:8888 -v $(realpath ~/project/):/notebooks -e HOST_PERMS="$(id -u):$(id -g)"     tensorflow/tensorflow:nightly-devel-gpu-py3 bash
-
-docker start -ai <container_name>
-```
-
 ## [Cleaning Docker containers](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 
 ### Purging All Unused or Dangling Images, Containers, Volumes, and Networks
-
-Docker provides a single command that will clean up any resources — images, containers, volumes, and networks — that are dangling (not associated with a container):
 ``` bash
 docker system prune
 ```
@@ -90,9 +90,6 @@ docker system prune -a
 
 ### Removing Docker Images
 #### Remove one or more specific images
-
-Use the `docker images` command with the `-a` flag to locate the ID of the images you want to remove. This will show you every image, including intermediate image layers. When you've located the images you want to delete, you can pass their ID or tag to `docker rmi`:
-
 List:
 ``` bash
 docker images -a
@@ -104,23 +101,19 @@ docker rmi Image Image
 ```
 
 #### Remove dangling images
-
-Docker images consist of multiple layers. Dangling images are layers that have no relationship to any tagged images. They no longer serve a purpose and consume disk space. They can be located by adding the filter flag, `-f` with a value of `dangling=true` to the `docker images` command. When you're sure you want to delete them, you can use the `docker images purge` command:
-
-> Note: If you build an image without tagging it, the image will appear on the list of dangling images because it has no association with a tagged image. You can avoid this situation by providing a tag when you build, and you can retroactively tag an images with the docker tag command.
+Docker images consist of multiple layers. Dangling images are layers that have no relationship to any tagged images.
 
 List:
-
-    docker images -f dangling=true
+``` bash
+docker images -f dangling=true
+```
 
 Remove:
-
-    docker images purge
+``` bash
+docker images purge
+```
 
 #### Remove all images
-
-All the Docker images on a system can be listed by adding `-a` to the `docker images` command. Once you're sure you want to delete them all, you can add the `-q` flag to pass the Image ID to `docker rmi`:
-
 List:
 ``` bash
 docker images -a
@@ -133,9 +126,6 @@ docker rmi $(docker images -a -q)
 
 ### Removing Containers
 #### Remove one or more specific containers
-
-Use the `docker ps` command with the `-a` flag to locate the name or ID of the containers you want to remove:
-
 List:
 ``` bash
 docker ps -a
@@ -144,6 +134,18 @@ docker ps -a
 Remove:
 ``` bash
 docker rm ID_or_Name ID_or_Name
+```
+
+#### Stop and remove all containers
+List:
+``` bash
+docker ps -a
+```
+
+Remove:
+``` bash
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
 ```
 
 ## Common Issues
