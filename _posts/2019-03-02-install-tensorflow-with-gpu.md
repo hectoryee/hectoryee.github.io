@@ -7,9 +7,6 @@ categories: project
 tags: notebook tensorflow
 ---
 
-
-
-
 ## Installing Tensorflow with GPU Support using Docker
 1. [Cuda](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#ubuntu-installation) installation.
 2. Install [nvidia-docker](https://github.com/NVIDIA/nvidia-docker).
@@ -54,11 +51,6 @@ docker run --runtime=nvidia -it -w /tensorflow -v $PWD:/mnt -e HOST_PERMS="$(id 
     tensorflow/tensorflow:nightly-devel-gpu-py3 bash
 ```
 
-My running version:
-``` bash
-docker run --runtime=nvidia -it -w /notebooks -p 8888:8888 -v $(realpath ~/project/):/notebooks -e HOST_PERMS="$(id -u):$(id -g)"     tensorflow/tensorflow:nightly-devel-gpu-py3 bash
-```
-
 Then, within the container's virtual environment, build the TensorFlow package with GPU support:
 ``` bash
 ./configure  # answer prompts or use defaults
@@ -79,91 +71,13 @@ cd /tmp  # don't import from source directory
 python -c "import tensorflow as tf; print(tf.contrib.eager.num_gpus())"
 ```
 
-### Common Issues
+## Common Issues
 - [ CUDA 9.0 unsupported gcc versions later than 6 #731 Closed](https://github.com/ethereum-mining/ethminer/issues/731)
 ``` bash
 sudo apt-get install gcc-6 g++-6
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 10
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 10
 ```
-- [How to fix docker: Got permission denied issue](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
-    - Create the docker group.
-    ```sudo groupadd docker```
-    - Add your user to the docker group.
-    ```sudo usermod -aG docker $USER```
-    - Logout and login again and run.
-    ```docker run hello-world```
-
-
-
-## [Using a Jupyter Notebook within a Docker Container](https://devtalk.nvidia.com/default/topic/1032202/docker-and-nvidia-docker/using-a-jupyter-notebook-within-a-docker-container/)
-``` bash
-docker run --runtime=nvidia -it -v "/my-local-computer-files/:/my-docker-container/" my-nvidia-container
-```
-
-### Add flag
-- `-p 8888:8888`
-- `-v "/my-local-computer-files/:/my-docker-container/"`
-
-Example
-``` bash
-docker run --runtime=nvidia -it -p "8888:8888" -v "/my-local-computer-files/:/my-docker-container/" my-nvidia-container
-```
-
-Inside docker run:
-``` bash
-jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root --no-browser .
-```
-
-
-## [Running Docker](https://stackify.com/docker-tutorial/)
-``` bash
-# Run a Docker image
-docker run hello-world
-
-# List images
-docker image ls
-
-# List the containers on our system
-docker ps -a
-
-# List Docker containers (running, all, all in quiet mode)
-docker container ls
-docker container ls --all
-docker container ls -aq
-
-# Reuse a container
-docker start -attach <container name>
-
-# Look inside the container and show the running processes
-docker top <container name>
-
-# Stop container
-docker stop <container name>
-
-# Remove docker
-docker rm <container name>
-
-```
-- `-attach` tells Docker to connect to the container output so we can see the results
-- `-it` flags allow us to interact with the shell.
-
-### Share system resources with a container
-``` bash
-docker run -v /full/path/to/html/directory:/usr/share/nginx/html:ro -p 8080:80 -d nginx
-```
-- `-v /full/path/to/html/directory:/usr/share/nginx/html:ro` maps the directory holding our web page to the required location in the image. The ro field instructs Docker to mount it in read-only mode. It’s best to pass Docker the full paths when specifying host directories.
-- `-p 8080:80` maps network service port 80 in the container to 8080 on our host system.
-- `-d` detaches the container from our command line session. Unlike our previous two examples, we don’t want to interact with this container.
-- `nginx` is the name of the image.
-
-Able to reach the web server on localhost:8080.
-
-1814
-12-1839
-22-1905
-
-- [Cleaning Docker containers](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 
 ## References
 - [tyokota.lab Ubuntu 16.04 + CUDA 9.1 + cuDNN 7.0.5 + Tensorflow 1.4.0](http://tyokota.hatenablog.com/entry/2017/12/20/170451)

@@ -13,6 +13,8 @@ excerpt: Sidekicks.
 - [Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
 - [MIT: Biomedical Signal and Image Processing](https://ocw.mit.edu/courses/health-sciences-and-technology/hst-582j-biomedical-signal-and-image-processing-spring-2007/lecture-notes/)
 
+- <https://blog.paralleldots.com/data-science/research-papers-image-classification/>
+
 ### Data set
 - [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
 - [Broad Institute: Cancer Program Datasets](http://portals.broadinstitute.org/cgi-bin/cancer/datasets.cgi)
@@ -36,3 +38,7 @@ excerpt: Sidekicks.
 - [Quandl](https://www.quandl.com/)
 - [Financial Times](https://markets.ft.com/data/)
 - [InvestorLinks.com](http://www.investorlinks.com/)
+
+
+- <http://portal.core.edu.au/conf-ranks/?search=A+Review+of+Medical+Image+Classification+Techniques&by=all&source=all&sort=atitle&page=1>
+- <https://arxiv.org/>
