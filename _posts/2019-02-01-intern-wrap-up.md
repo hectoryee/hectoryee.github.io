@@ -18,7 +18,7 @@ Permanent staff has incentives. They have unlimited leaves, WFH (work from home)
 
 Going into the departments in the CADS:
 
-### Data Science Department
+## Data Science Department
 
 I reported to Data Science team for the first two months. DS team has great working culture. They treat each other as equal, asking for help from others is a normal thing to do. I didn't feel that I'm at the bottom of the pyramid although I'm an intern. Philip, Janice, Sook Yan and Niki are good friends. Might be because we are young. Santa and I came a month later than them so they have guided us. I have fond memory here.
 
@@ -26,7 +26,7 @@ DS trains others. I think they themselves should grow more. They do have a skill
 
 Since the flow of talent in tech industry is dynamic, DS team has to ensure there is proper hand over. If a member of the team is leaving, there must be another that can take over the place right after he's gone. To achieve this DS team has to ensure the all has checked and improved their skills matrix, gain more skills. Shadowing is too slow. Train the people so other company would fight for them, but they are staying because they want to stay here. 
 
-### Business Innovation Department
+## Business Innovation Department
 
 I was suddenly pulled to BI department without knowing anything. I was supposed to be back to DS team after two months but it was an empty promise. BI has a very different culture. Each person did their own tasks. I don't see all of them working at office.
 
@@ -36,7 +36,7 @@ Working here I did feel like I'm at the bottom of the pyramid. I don't feel like
 
 I strongly believe BI should set a clear direction along with realistic, achievable targets. BI has few projects that have been dragged on for far too long. It shouldn't happened. Some projects lose value over time. There's a need to have strict driver and go after it to make sure everything is up to schedule.
 
-### Human Capital
+## Human Capital
 
 I did not have a good impression of HC even before I came to company. My more-than-a-week application was finally processed after I called Nellie. Instructions were not clear on what to wear, bring etc. until I asked. Luckily they reply email fast and friendly.
 
