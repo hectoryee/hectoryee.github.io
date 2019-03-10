@@ -107,3 +107,6 @@ source ~/.bashrc
 
 ## Useful software
 - [Youtube downloader](https://github.com/rg3/youtube-dl/blob/master/README.md#options)
+`youtube-dl --write-auto-sub https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN`ss
+- [Kindle-friendly pdf converter](http://www.willus.com/k2pdfopt//)
+`k2pdfopt *.pdf -dev kp3`
