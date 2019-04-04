@@ -3,6 +3,11 @@ title: "Data Science"
 excerpt: Resources to learn.
 ---
 
+<https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/>
+<https://www.ritchieng.com/machine-learning-evaluate-classification-model/>
+<https://www.kaggle.com/junkal/breast-cancer-prediction-using-machine-learning>
+<https://medium.com/@Petuum/deep-learning-for-breast-cancer-identification-from-histopathological-images-f38de0a658a5>
+
 ## News
 - [Hacker News](https://news.ycombinator.com/)
 - [DataTau](http://www.datatau.com/)
@@ -59,8 +64,7 @@ excerpt: Resources to learn.
 
 
 
-## Dataset
-
+## Datasets
 - [Cancer Imaging](https://www.cancerimagingarchive.net/)
 
 ### Dataset Finders:
@@ -135,6 +139,7 @@ excerpt: Resources to learn.
     - [Google Docs: Face2Face GAN - PGH Machine Learners 2017-07-27](https://docs.google.com/presentation/d/1uYSM7hR8H6aNv6hGkzfS05ojQiuVOgnq5ASLpGy8IGk/edit#slide=id.g249ebeb2f6_0_513)
     - [AI Experiments](https://experiments.withgoogle.com/collection/ai)
     - [Activation Function](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
+- [Ritchie Ng](https://www.ritchieng.com/machine-learning-evaluate-classification-model/)
 - [Machine Learning Blogs](https://machinelearningblogs.com/)
 - [Machine Learning with R: An Irresponsibly Fast Tutorial](https://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/)
 
