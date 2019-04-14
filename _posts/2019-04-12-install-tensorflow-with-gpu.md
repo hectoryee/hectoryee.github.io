@@ -9,6 +9,7 @@ tags: tensorflow gpu
 
 ## Install NVIDIA Graphics Driver 
 1. Use NVIDIA proprietary driver. Check installation `nvidia-smi`.
+
 ``` bash
 Sun Apr 14 15:23:21 2019       
 +-----------------------------------------------------------------------------+
