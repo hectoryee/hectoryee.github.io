@@ -36,6 +36,7 @@ Sun Apr 14 15:23:21 2019
 ## Install NVIDIA Graphics Driver 
 2. Download [CUDA installer](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
 3. Stop display manager. `ctrl` + `Alt` + `F3`.
+
 ``` bash
 # disable the graphical target
 systemctl isolate multi-user.target
@@ -45,32 +46,43 @@ sudo modprobe -r nvidia-drm
 ```
 4. Execute the runfile installer.
 5. Start graphics.
+
 ``` bash
 # start graphical env again
 systemctl start graphical.target
 ```
+
 6. After the installation finishes, configure the runtime library.
+
 ``` bash
 sudo bash -c "echo /usr/local/cuda/lib64/ > /etc/ld.so.conf.d/cuda.conf"
 sudo ldconfig
 ```
+
 7. Append string `/usr/local/cuda/bin` to system file `/etc/environment` so that `nvcc` will be included in `$PATH`.
+
 ``` bash
 sudo vim /etc/environment
 ```
+
 Add `:/usr/local/cuda/bin` at the end before the `"`.
+
 8. `reboot`.
 
 ### Test installation
 9. 
+
 ``` bash
 cd /usr/local/cuda-10.0/samples/
 sudo make
 ```
+
 10. After it completes.
+
 ``` bash
 cd /usr/local/cuda/samples/bin/x86_64/linux/release
 ./deviceQuery
+
 ``` bash
 ./deviceQuery Starting...
 
@@ -121,13 +133,16 @@ Result = PASS
 ## Install cuDNN 7.0
 11. Download from [cuDNN downlload page](https://developer.nvidia.com/rdp/cudnn-download). Download all three .deb files: runtime lib, developer lib, code samples lib.
 12. 
+
 ``` bash
 sudo dpkg -i libcudnn7_7.5.0.56-1+cuda10.0_amd64.deb
 sudo dpkg -i libcudnn7-dev_7.5.0.56-1+cuda10.0_amd64.deb
 sudo dpkg -i libcudnn7-doc_7.5.0.56-1+cuda10.0_amd64.deb
 ```
+
 ### Verify installation
 13. 
+
 ``` bash
 cp -r /usr/src/cudnn_samples_v7/ ~
 cd ~/cudnn_samples_v7/mnistCUDNN
