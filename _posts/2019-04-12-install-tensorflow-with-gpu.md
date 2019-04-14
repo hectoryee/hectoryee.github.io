@@ -35,6 +35,7 @@ Sun Apr 14 15:23:21 2019
 
 ## Install NVIDIA Graphics Driver 
 2.Download [CUDA installer](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
+
 3.Stop display manager. `ctrl` + `Alt` + `F3`.
 
 ``` bash
@@ -45,6 +46,7 @@ systemctl isolate multi-user.target
 sudo modprobe -r nvidia-drm
 ```
 4.Execute the runfile installer.
+
 5.Start graphics.
 
 ``` bash
@@ -63,6 +65,7 @@ sudo ldconfig
 sudo vim /etc/environment
 ```
 Add `:/usr/local/cuda/bin` at the end before the `"`.
+
 8.`reboot`.
 
 ### Test installation
@@ -128,6 +131,7 @@ Result = PASS
 
 ## Install cuDNN 7.0
 11.Download from [cuDNN downlload page](https://developer.nvidia.com/rdp/cudnn-download). Download all three .deb files: runtime lib, developer lib, code samples lib.
+
 12.
 
 ``` bash
@@ -137,7 +141,7 @@ sudo dpkg -i libcudnn7-doc_7.5.0.56-1+cuda10.0_amd64.deb
 ```
 
 ### Verify installation
-13. 
+13.
 
 ``` bash
 cp -r /usr/src/cudnn_samples_v7/ ~
@@ -147,7 +151,8 @@ make clean && make
 ```
 
 ## Configure the CUDA and cuDNN library paths
-14. 
+14.
+
 ``` bash
 # put the following line in the end or your .bashrc file
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64"
@@ -156,10 +161,11 @@ source ~/.bashrc
 ```
 
 ## Install TensorFlow-GPU
-15. ` pip install --upgrade tensorflow-gpu`.
+15.` pip install --upgrade tensorflow-gpu`.
 
 ### Try it out
-16. 
+16.
+
 ``` bash
 python
 >>> import tensorflow as tf
@@ -193,8 +199,7 @@ Device mapping:
 /job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce 940MX, pci bus id: 0000:01:00.0, compute capability: 5.0
 ```
 
-
-References
+## References
 - [Tensorflow steps](https://www.tensorflow.org/install/gpu)
 - [Install CUDA 9.0 and cuDNN 7.0 for TensorFlow/PyTorch (GPU) on Ubuntu 16.04](https://medium.com/@zhanwenchen/install-cuda-and-cudnn-for-tensorflow-gpu-on-ubuntu-79306e4ac04e)
 - [StackExchange: How to unload kernel module 'nvidia-drm'?](https://unix.stackexchange.com/questions/440840/how-to-unload-kernel-module-nvidia-drm)
