@@ -9,7 +9,6 @@ tags: tensorflow gpu
 
 ## Install NVIDIA Graphics Driver 
 1. Use NVIDIA proprietary driver. Check installation `nvidia-smi`.
-
 ``` bash
 Sun Apr 14 15:23:21 2019       
 +-----------------------------------------------------------------------------+
@@ -36,7 +35,6 @@ Sun Apr 14 15:23:21 2019
 ## Install NVIDIA Graphics Driver 
 2. Download [CUDA installer](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
 3. Stop display manager. `ctrl` + `Alt` + `F3`.
-
 ``` bash
 # disable the graphical target
 systemctl isolate multi-user.target
@@ -46,7 +44,6 @@ sudo modprobe -r nvidia-drm
 ```
 4. Execute the runfile installer.
 5. Start graphics.
-
 ``` bash
 # start graphical env again
 systemctl start graphical.target
