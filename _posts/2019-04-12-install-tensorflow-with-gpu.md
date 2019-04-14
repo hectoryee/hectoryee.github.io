@@ -51,22 +51,18 @@ sudo modprobe -r nvidia-drm
 # start graphical env again
 systemctl start graphical.target
 ```
-
 6. After the installation finishes, configure the runtime library.
 
 ``` bash
 sudo bash -c "echo /usr/local/cuda/lib64/ > /etc/ld.so.conf.d/cuda.conf"
 sudo ldconfig
 ```
-
 7. Append string `/usr/local/cuda/bin` to system file `/etc/environment` so that `nvcc` will be included in `$PATH`.
 
 ``` bash
 sudo vim /etc/environment
 ```
-
 Add `:/usr/local/cuda/bin` at the end before the `"`.
-
 8. `reboot`.
 
 ### Test installation
