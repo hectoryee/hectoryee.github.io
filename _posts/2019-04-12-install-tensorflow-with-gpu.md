@@ -9,7 +9,7 @@ tags: tensorflow gpu
 
 ## Install NVIDIA Graphics Driver 
 1. Use NVIDIA proprietary driver. Check installation `nvidia-smi`.
-``` bash
+`
 Sun Apr 14 15:23:21 2019       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 418.39       Driver Version: 418.39       CUDA Version: 10.1     |
@@ -30,7 +30,7 @@ Sun Apr 14 15:23:21 2019
 |    0      4577      C   python3                                       24MiB |
 |    0      4877      G   ...-token=6290163DAE60CC3BAE4735A7678A09B4    49MiB |
 +-----------------------------------------------------------------------------+
-```
+`
 
 ## Install NVIDIA Graphics Driver 
 2. Download [CUDA installer](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
