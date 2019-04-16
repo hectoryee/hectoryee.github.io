@@ -3,12 +3,6 @@ title: "Data Science"
 excerpt: Resources to learn.
 ---
 
-<https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd>
-<https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/>
-<https://www.ritchieng.com/machine-learning-evaluate-classification-model/>
-<https://www.kaggle.com/junkal/breast-cancer-prediction-using-machine-learning>
-<https://medium.com/@Petuum/deep-learning-for-breast-cancer-identification-from-histopathological-images-f38de0a658a5>
-
 ## News
 - [Hacker News](https://news.ycombinator.com/)
 - [DataTau](http://www.datatau.com/)

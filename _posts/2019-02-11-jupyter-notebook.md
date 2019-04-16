@@ -8,8 +8,13 @@ tags: notebook
 ---
 
 ## [Install packages from Jupyter Notebook](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/)
+
+- `pip` installs python packages in any environment.
+- `conda` installs any package in conda environments.
+
 ``` bash
 # Install a pip package in the current Jupyter kernel
 import sys
 !{sys.executable} -m pip install numpy
+!conda install --yes --prefix {sys.prefix} numpy
 ```
