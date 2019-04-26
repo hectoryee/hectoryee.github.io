@@ -157,6 +157,7 @@ excerpt: Resources to learn.
 
 ## Data Visualisation
 - [Flowing Data](https://flowingdata.com/)
+- [http://ramiro.org/](http://ramiro.org/)
 - [9 Powerful Data Visualizations That Could Change Your View of the World](https://datasciencedegree.wisconsin.edu/blog/9-powerful-data-visualizations/)
 
 
