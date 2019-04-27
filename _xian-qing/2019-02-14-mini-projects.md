@@ -9,16 +9,8 @@ excerpt: Sidekicks.
 
 [scrapy for web scraping](https://docs.scrapy.org/en/latest/intro/tutorial.html#intro-tutorial)
 
-## Image Classification
-- [Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
-- [MIT: Biomedical Signal and Image Processing](https://ocw.mit.edu/courses/health-sciences-and-technology/hst-582j-biomedical-signal-and-image-processing-spring-2007/lecture-notes/)
-
-- <https://blog.paralleldots.com/data-science/research-papers-image-classification/>
-
 ### Data set
-- [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
 - [Broad Institute: Cancer Program Datasets](http://portals.broadinstitute.org/cgi-bin/cancer/datasets.cgi)
-- [TCIA Collections](https://www.cancerimagingarchive.net/#collections-list)
 
 
 ## Language Modelling

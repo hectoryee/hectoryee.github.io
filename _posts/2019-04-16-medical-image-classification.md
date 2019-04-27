@@ -14,7 +14,12 @@ tags:
 <https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/>
 <https://www.ritchieng.com/machine-learning-evaluate-classification-model/>
 
+## Online Courses
+- [Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+- [MIT: Biomedical Signal and Image Processing](https://ocw.mit.edu/courses/health-sciences-and-technology/hst-582j-biomedical-signal-and-image-processing-spring-2007/lecture-notes/)
+- [Udacity](https://www.youtube.com/watch?list=PLtizWl5sTV3d4uQ6PvzXKrlkp_3XOCotN&v=2S4nn7S8Hk4&app=desktop)
 
+- <https://blog.paralleldots.com/data-science/research-papers-image-classification/>
 
 
 ## SPIE-AAPM Lung CT Challenge
