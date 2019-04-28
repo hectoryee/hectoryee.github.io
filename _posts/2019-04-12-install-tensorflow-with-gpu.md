@@ -33,8 +33,42 @@ Sun Apr 14 15:23:21 2019
 +-----------------------------------------------------------------------------+
 ```
 
+To install latest driver:
+``` bash
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+sudo apt update
+
+sudo apt upgrade
+
+ubuntu-drivers list
+
+sudo apt install nvidia-driver-VERSION_NUMBER_HERE
+```
+
+
+
+To solve
+
+E: Unable to correct problems, you have held broken packages.
+
+Try:
+
+``` bash
+sudo apt-get install --fix-broken xorg-video-abi-11 xserver-xorg-core
+```
+or
+``` bash
+sudo apt-get remove --purge nvidia-*
+sudo ubuntu-drivers autoinstall
+sudo service lightdm restart
+```
+
+
 ## Install CUDA Toolkit
-2.Download [CUDA installer](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
+2.Download [CUDA installer runfile](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
+418-10.0
+390-9.0
 
 3.Stop display manager. `ctrl` + `Alt` + `F3`.
 
@@ -81,7 +115,7 @@ sudo make
 ``` bash
 cd /usr/local/cuda/samples/bin/x86_64/linux/release
 ./deviceQuery
-
+```
 ``` bash
 ./deviceQuery Starting...
 
@@ -130,7 +164,7 @@ Result = PASS
 ```
 
 ## Install cuDNN 7.0
-11.Download from [cuDNN downlload page](https://developer.nvidia.com/rdp/cudnn-download). Download all three .deb files: runtime lib, developer lib, code samples lib.
+11.Download from [cuDNN download page](https://developer.nvidia.com/rdp/cudnn-download). Download all three .deb files: runtime lib, developer lib, code samples lib.
 
 12.
 

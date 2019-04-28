@@ -83,9 +83,9 @@ cd ~/project/wayneyee.github.io
 echo "starting jekyll.."
 bundle exec jekyll serve
 ```
-Change file permission.
-Add to $HOME/bin.
+Change file permission. Add to $HOME/bin.
 
+Add line to end of `~/.bashrc` file.
 ``` bash
 export PATH=$PATH:$HOME/bin
 ```
