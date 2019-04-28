@@ -33,7 +33,7 @@ Sun Apr 14 15:23:21 2019
 +-----------------------------------------------------------------------------+
 ```
 
-## Install NVIDIA Graphics Driver 
+## Install CUDA Toolkit
 2.Download [CUDA installer](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
 
 3.Stop display manager. `ctrl` + `Alt` + `F3`.
