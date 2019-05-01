@@ -8,6 +8,8 @@ tags:
 ---
 
 ## Bookmarks
+
+- [Read this](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3995505/)
 <https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd>
 - [Pyradiomics](https://www.nature.com/articles/ncomms5006)
 
