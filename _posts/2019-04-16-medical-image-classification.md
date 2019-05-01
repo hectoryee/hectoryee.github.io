@@ -3,16 +3,20 @@ title: Medical Image Classification
 excerpt: My Final Year Project.
 published: true
 date: 2019-04-16
-categories: project
+categories: project image
 tags: 
 ---
 
 ## Bookmarks
 <https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd>
+- [Pyradiomics](https://www.nature.com/articles/ncomms5006)
 
 ### Evaluation
 <https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/>
 <https://www.ritchieng.com/machine-learning-evaluate-classification-model/>
+
+
+
 
 ## Online Courses
 - [Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
