@@ -19,6 +19,9 @@ tags:
 <https://www.ritchieng.com/machine-learning-evaluate-classification-model/>
 
 
+## Training Model
+[Image Classification using Python and Scikit-learn](https://gogul09.github.io/software/image-classification-python#training-classifiers)
+[Python machine learning: Introduction to image classification](https://blog.hyperiondev.com/index.php/2019/02/18/machine-learning/)
 
 
 ## Online Courses

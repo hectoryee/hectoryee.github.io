@@ -13,11 +13,12 @@ excerpt: Sidekicks.
 - [Broad Institute: Cancer Program Datasets](http://portals.broadinstitute.org/cgi-bin/cancer/datasets.cgi)
 
 
-## Language Modelling
-
 
 ## E-commerce
 - [Structuring data for ticket sale analysis](https://stats.stackexchange.com/questions/174547/structuring-data-for-ticket-sale-analysis)
+
+
+## Language Modelling
 
 ### Dataset
 - [Datasets for Natural Language Processing](https://machinelearningmastery.com/datasets-natural-language-processing/)
