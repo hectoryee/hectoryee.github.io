@@ -7,6 +7,21 @@ categories: project
 tags: bash
 ---
 
+## Installing Windows
+
+### Foobar
+[https://www.foobar2000.org/encoderpack]
+foo_discogs
+foo_dsd_processor
+foo_input_dts
+foo_dsp_xgeg
+foo_input_monkey
+foo_input_sacd
+foo_out_upnp
+foo_upn
+
+
+
 ## Installing Ubuntu
 
 ### Disk Partition Size
@@ -21,18 +36,18 @@ tags: bash
 +---------+-----------+----------+
 ```
 
-### Post install script
-
-{% gist 4ca47b320b0f7e13a16958210eef034c %}
-
-
-
 Regain ownership of all files run this:
 
 ``` bash
 sudo chown -R hsunwei /home/hsunwei
 ```
 
+
+
+### Installing Anaconda
+
+[Anaconda Distribution Download](https://www.anaconda.com/distribution/)
+[Recommended change to enable conda in your shell](https://github.com/conda/conda/releases/tag/4.4.0)
 
 
 
@@ -43,15 +58,6 @@ sudo chown -R hsunwei /home/hsunwei
 `k2pdfopt *.pdf -dev kp3`
 
 
-## Installing Windows
+### Post install script
 
-### Foobar
-- [https://www.foobar2000.org/encoderpack]
-- foo_discogs
-- foo_dsd_processor
-- foo_input_dts
-- foo_dsp_xgeg
-- foo_input_monkey
-- foo_input_sacd
-- foo_out_upnp
-- foo_upnp
+{% gist 4ca47b320b0f7e13a16958210eef034c %}
