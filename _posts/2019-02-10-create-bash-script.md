@@ -20,9 +20,8 @@ Script starts with a "shebang" for the shell to decide which interpreter to run 
 
 To  set the script executable:
 ``` bash
-chmod u+x scriptname
+chmod +x scriptname
 ```
-- `u` - user
 - `+` - add permission
 - `x` - executable
 
@@ -104,9 +103,3 @@ Start using the new bashrc file:
 source ~/.bashrc
 ```
 {% gist 1ae4cced70b75b012d1a69c061619fa1 %}
-
-## Useful software
-- [Youtube downloader](https://github.com/rg3/youtube-dl/blob/master/README.md#options)
-`youtube-dl --write-auto-sub https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN`
-- [Kindle-friendly pdf converter](http://www.willus.com/k2pdfopt//)
-`k2pdfopt *.pdf -dev kp3`
