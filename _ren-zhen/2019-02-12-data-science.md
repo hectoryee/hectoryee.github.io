@@ -109,6 +109,7 @@ excerpt: Resources to learn.
 
 ## Neural Networks
 - [Hacker's guide to Neural Networks](https://karpathy.github.io/neuralnets/)
+- [Getting to ml](http://neuralnetworksanddeeplearning.com/)
 
 
 

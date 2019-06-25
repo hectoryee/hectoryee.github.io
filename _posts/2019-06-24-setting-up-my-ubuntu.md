@@ -10,6 +10,7 @@ tags: bash
 ## Installing Windows
 
 ### Foobar
+``` bashcd 
 [https://www.foobar2000.org/encoderpack]
 foo_discogs
 foo_dsd_processor
@@ -19,6 +20,7 @@ foo_input_monkey
 foo_input_sacd
 foo_out_upnp
 foo_upn
+```
 
 
 
@@ -42,6 +44,13 @@ Regain ownership of all files run this:
 sudo chown -R hsunwei /home/hsunwei
 ```
 
+### Chinese input
+
+1. System Settings–>Language Support–>Install/Remove Languages
+2. `sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4`
+3. `sudo apt-get install ibus-pinyin`
+4. Logout
+5. sudo ibus-setup
 
 
 ### Installing Anaconda
