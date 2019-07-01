@@ -67,6 +67,8 @@ sudo chown -R hsunwei /home/hsunwei
 `k2pdfopt *.pdf -dev kp3`
 
 
+- [HTML 5 outliner for Chrome](https://h5o.github.io/) [HeadingsMap for Firefox](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/) [How can I add a table of contents to an ipython notebook?](https://stackoverflow.com/questions/21151450/how-can-i-add-a-table-of-contents-to-an-ipython-notebook)
+
 ### Post install script
 
 {% gist 4ca47b320b0f7e13a16958210eef034c %}
