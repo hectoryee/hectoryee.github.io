@@ -22,6 +22,20 @@ foo_out_upnp
 foo_upn
 ```
 
+### Mountvol
+```
+{e864ee90-ea3d-43d9-962d-3452d830dd69}
+
+mountvol D: /p
+
+mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
+```
+
+### [Disable autorun]()
+1. Windows key + R -> regedit
+2. HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
+3. Create a new Dword type value with name "NoDriveTypeAutorun". Set value to "FF".
+
 
 
 ## Installing Ubuntu
