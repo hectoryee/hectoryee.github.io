@@ -20,7 +20,7 @@ excerpt: Back to basics.
 
 ## Getting into Data Science
 1. Machine Learning
-2. Linear ALgebra
+2. Linear Algebra
 3. Calculus
 4. Statistics
 5. Optimisation
@@ -37,7 +37,6 @@ excerpt: Back to basics.
 
 
 ## Calculus
-
 - [MIT Single Variable Calculus 2006](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
     - [ ] Simmons, George F. Calculus with Analytic Geometry. 2nd ed.
     - [Video Lectures](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/video-lectures/)
@@ -46,11 +45,20 @@ excerpt: Back to basics.
     - [Video Lectures](https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/video-lectures/)
 
 
+
+
+## Statistics
+
+
 ----
 
 
 ### Harvard Prerequisites
 Stat 110 recommended.
 - [Stat 100 Introduction to Quantitative Methods](https://canvas.harvard.edu/courses/8323/assignments/syllabus)
-- [Stat 110 Probability](https://projects.iq.harvard.edu/stat110/home)
+- [**Stat 110 Probability**](https://projects.iq.harvard.edu/stat110/home)
 - [Stat 111 Introduction to Statistical Inference](https://sites.google.com/site/kwchankeith/teaching/s111)
+
+
+[American Institute of Mathematics](https://aimath.org/textbooks/approved-textbooks/)
+- [OpenIntro Statistics](https://leanpub.com/user_dashboard/library)
