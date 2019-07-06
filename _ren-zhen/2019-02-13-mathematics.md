@@ -29,7 +29,7 @@ excerpt: Back to basics.
 
 - [How to Start Learning Deep Learning](http://ofir.io/How-to-Start-Learning-Deep-Learning/)
 
-## Linear ALgebra
+## Linear Algebra
 - [MIT Linear Algebra 2010](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
     - [x] Strang, Gilbert. Introduction to Linear Algebra. 5th ed.
     - [Video Lectures](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
@@ -48,6 +48,8 @@ excerpt: Back to basics.
 
 
 ## Statistics
+- [MIT Introduction to Probability and Statistics 2014](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/)
+- [Stat 110 Probability](https://projects.iq.harvard.edu/stat110/home)
 
 
 ----
