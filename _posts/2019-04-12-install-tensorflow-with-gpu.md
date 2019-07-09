@@ -66,9 +66,10 @@ sudo service lightdm restart
 
 
 ## Install CUDA Toolkit
-2.Download [CUDA installer runfile](https://developer.nvidia.com/cuda-downloads). Check version 10.0.
-418-10.0
-390-9.0
+2.Download [CUDA installer runfile](https://developer.nvidia.com/cuda-downloads). Check version 
+* 10.0.
+* 418-10.0
+* 390-9.0
 
 3.Stop display manager. `ctrl` + `Alt` + `F3`.
 
@@ -79,7 +80,7 @@ systemctl isolate multi-user.target
 # unload Nvidia drivers
 sudo modprobe -r nvidia-drm
 ```
-4.Execute the runfile installer.
+4.Execute the runfile installer. Install CUDA Toolkit ans samples.
 
 5.Start graphics.
 
