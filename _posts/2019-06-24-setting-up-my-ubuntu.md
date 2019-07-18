@@ -9,9 +9,9 @@ tags: bash
 
 ## Installing Windows
 
-### Foobar
+### [Foobar](https://www.foobar2000.org/encoderpack)
+
 ``` bashcd 
-[https://www.foobar2000.org/encoderpack]
 foo_discogs
 foo_dsd_processor
 foo_input_dts
