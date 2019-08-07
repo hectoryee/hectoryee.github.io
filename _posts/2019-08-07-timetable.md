@@ -3,7 +3,7 @@ layout: splash
 title: Timetable Sem I 2019/20
 excerpt: ""
 published: true
-date: 2019-02-10
+date: 2019-08-07
 categories: blog
 tags: 
 ---
