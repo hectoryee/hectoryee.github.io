@@ -8,7 +8,6 @@ tags: bash
 ---
 
 ## Installing Windows
-
 ### [Foobar](https://www.foobar2000.org/encoderpack)
 
 ``` bashcd 
@@ -22,6 +21,8 @@ foo_out_upnp
 foo_upn
 ```
 
+
+
 ### Mountvol
 ```
 {e864ee90-ea3d-43d9-962d-3452d830dd69}
@@ -31,6 +32,8 @@ mountvol D: /p
 mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 ```
 
+
+
 ### [Disable autorun]()
 1. Windows key + R -> regedit
 2. HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
@@ -39,7 +42,6 @@ mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 
 
 ## Installing Ubuntu
-
 ### Disk Partition Size
 
 ``` bash
@@ -58,8 +60,9 @@ Regain ownership of all files run this:
 sudo chown -R hsunwei /home/hsunwei
 ```
 
-### Chinese input
 
+
+### Chinese input
 1. System Settings–>Language Support–>Install/Remove Languages
 2. `sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4`
 3. `sudo apt-get install ibus-pinyin`
@@ -67,21 +70,30 @@ sudo chown -R hsunwei /home/hsunwei
 5. sudo ibus-setup
 
 
-### Installing Anaconda
 
+### Installing Anaconda
 [Anaconda Distribution Download](https://www.anaconda.com/distribution/)
 [Recommended change to enable conda in your shell](https://github.com/conda/conda/releases/tag/4.4.0)
+
+
+
+### Shortcut
+Bash script, save to `$home/bin`.
+
+{% gist https://gist.github.com/xunweiyee/1ae4cced70b75b012d1a69c061619fa1 %}
 
 
 
 ### Useful software
 - [Youtube downloader](https://github.com/rg3/youtube-dl/blob/master/README.md#options)
 `youtube-dl --write-auto-sub https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN`
+
 - [Kindle-friendly pdf converter](http://www.willus.com/k2pdfopt//)
 `k2pdfopt *.pdf -dev kp3`
 
-
 - [HTML 5 outliner for Chrome](https://h5o.github.io/) [HeadingsMap for Firefox](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/) [How can I add a table of contents to an ipython notebook?](https://stackoverflow.com/questions/21151450/how-can-i-add-a-table-of-contents-to-an-ipython-notebook)
+
+- [WakaTime extension for chrome (jupyter notebookls)](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi?hl=en)
 
 
 
