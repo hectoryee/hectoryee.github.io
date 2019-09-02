@@ -1,5 +1,5 @@
 ---
-title: Storing pandas dataframe.
+title: Storing Pandas Dataframe
 excerpt: Pandas IO
 published: true
 date: 2019-04-16

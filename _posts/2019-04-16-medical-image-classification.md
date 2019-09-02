@@ -9,7 +9,15 @@ tags:
 
 ## Bookmarks
 
-- [Read this](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3995505/)
+- [Review of CAD for lung cancer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3995505/)
+    - meet the following requirements:
+        - improve the performance of radiologists providing high sensitivity in the diagnosis
+        - a low number of false positives (FP)
+        - high processing speed
+        - present high level of automation
+        - low cost (of implementation, training, support and maintenance)
+        - the ability to detect different types and shapes of nodules
+        - software security assurance
 <https://towardsdatascience.com/computer-vision-feature-extraction-101-on-medical-images-part-1-edge-detection-sharpening-42ab8ef0a7cd>
 - [Pyradiomics](https://www.nature.com/articles/ncomms5006)
 - [Top placing](https://datasciencebowl.com/2017algorithms/)

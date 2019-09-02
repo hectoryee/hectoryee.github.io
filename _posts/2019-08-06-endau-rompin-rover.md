@@ -1,6 +1,6 @@
 ---
 title: Endau Rompin Trip Rover D
-excerpt: ""
+excerpt: "Two days trip into Endau Rompin with Rover D."
 published: true
 date: 2019-08-06
 categories: blog
@@ -11,7 +11,7 @@ tags:
 
 Time | Activity |
 ---|---
-DAY 1 |---
+DAY 1 | 3/8/2019
 0700 | depart from jc house
 0820 | kluang railway coffee
 1000 | reach office
@@ -21,7 +21,7 @@ DAY 1 |---
 1400 | pitch tent and lunch
 1700 | tasik biru
 1800 | dinner
-DAY 2 |---
+DAY 2 | 4/8/2019
 0700 | breakfast
 0900 | trek
 1100 | pack
