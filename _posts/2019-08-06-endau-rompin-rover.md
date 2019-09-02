@@ -11,6 +11,7 @@ tags:
 
 Time | Activity |
 ---|---
+DAY 1 |---
 0700 | depart from jc house
 0820 | kluang railway coffee
 1000 | reach office
@@ -20,7 +21,7 @@ Time | Activity |
 1400 | pitch tent and lunch
 1700 | tasik biru
 1800 | dinner
----|---
+DAY 2 |---
 0700 | breakfast
 0900 | trek
 1100 | pack
