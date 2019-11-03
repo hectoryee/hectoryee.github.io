@@ -10,7 +10,7 @@ tags:
 ## [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI#a2b592e6fba14f949f6e23bb1b7804cc)
 
 - [The Lung Image Database Consortium (LIDC) and Image Database Resource Initiative (IDRI): a completed reference database of lung nodules on CT scans.](https://www.ncbi.nlm.nih.gov/pubmed/21452728)
-- []()
+- [Lung Image Database Consortium (LIDC) Nodule Size Report](http://www.via.cornell.edu/lidc/)
 
 
 - [Highly accurate model for prediction of lung nodule malignancy with CT scans](https://arxiv.org/pdf/1802.01756.pdf)
