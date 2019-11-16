@@ -4,7 +4,7 @@ excerpt: Installing Opencv 4.0.1 from source.
 published: true
 date: 2019-04-04
 categories: project
-tags: python opencv
+tags: python opencv install
 ---
 
 ``` bash
@@ -29,8 +29,8 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 	-D INSTALL_PYTHON_EXAMPLES=ON \
 	-D INSTALL_C_EXAMPLES=OFF \
 	-D OPENCV_ENABLE_NONFREE=ON \
-	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-4.0.1/modules \
-	-D PYTHON_EXECUTABLE=/home/hectoryee/anaconda3/bin/python \
+	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+	-D PYTHON_EXECUTABLE=$(python -c "import sys; print(sys.executable)") \
 	-D BUILD_opencv_python3=yes \
 	-D PYTHON_INCLUDE_DIR=$(python -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")  \
 	-D PYTHON_LIBRARY=$(python -c "import distutils.sysconfig as sysconfig; print(sysconfig.get_config_var('LIBDIR'))") \

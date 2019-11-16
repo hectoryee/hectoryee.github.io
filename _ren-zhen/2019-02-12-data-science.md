@@ -30,7 +30,7 @@ excerpt: Resources to learn.
 
 ## Python
 - [A Complete Tutorial to Learn Data Science with Python from Scratch](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)
-
+- [Python Pandas Tricks](https://realpython.com/python-pandas-tricks/#1-configure-options-settings-at-interpreter-startup)
 
 
 ## Projects
