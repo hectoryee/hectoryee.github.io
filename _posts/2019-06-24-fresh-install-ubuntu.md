@@ -1,6 +1,6 @@
 ---
-title: Setting Up My Ubuntu
-excerpt: Post install script, software settings.
+title: Fresh Install Ubuntu
+excerpt: Guide for setting up dool-boot ubuntu. Include partition size, post install script, software settings and configure Windows to mount and eject drive.
 published: true
 date: 2019-06-24
 categories: project
@@ -48,9 +48,9 @@ mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 +---------+-----------+----------+
 |  DISK   | PARTITION |   SIZE   |
 |---------+-----------+----------|
-|   SSD   |     /     |   40 Gb  |
-|         |    swap   |   12 Gb  |
-|   HDD   |   /home   |   15 Gb  |
+|   SSD   |     /     |   60 Gb  |
+|         |    swap   |   3 Gb  |
+|   HDD   |   /home   |   60 Gb  |
 +---------+-----------+----------+
 ```
 

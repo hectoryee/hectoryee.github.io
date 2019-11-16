@@ -1,6 +1,6 @@
 ---
-title: Scraping Tweets from Twitter using Tweepy and Twitter API
-excerpt: Scraping tweets for sentiment analysis.
+title: Scraping Tweets for Sentiment Analysis
+excerpt: Scraping tweets from Twitter using Tweepy and Twitter API. Script is hosted on Amazon EC2.
 published: true
 date: 2018-09-24
 categories: project

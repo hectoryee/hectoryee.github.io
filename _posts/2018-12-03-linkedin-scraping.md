@@ -1,6 +1,6 @@
 ---
 title: Scraping Data from LinkedIn
-excerpt: Gather data from LinkedIn using Selenium.
+excerpt: Gather data from LinkedIn using Selenium. Selenium automates a browser, imitating a user.
 published: true
 date: 2018-12-03
 categories: project

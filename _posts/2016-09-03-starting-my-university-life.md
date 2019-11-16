@@ -19,5 +19,3 @@ All freshies of MU has to attend a week of orientation called MHS(Mingggu Haluan
 ![lit balloon flashing during performance](/assets/article_images/2016-09-03-starting-my-university-life/20160902_215425.jpg)
 
 ![all pm went on stage during closing ceremmony ](/assets/article_images/2016-09-03-starting-my-university-life/20160902_231303.jpg)
-
-souhll

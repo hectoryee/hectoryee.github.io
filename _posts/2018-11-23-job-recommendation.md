@@ -1,10 +1,10 @@
 ---
 title: Job Recommendation Engine
-excerpt: Recommendation engine based on similarity of job description.
+excerpt: Recommendation engine based on similarity of job description using tf-idf scores. Text with similar contents will be ranked higher.
 published: true
 date: 2018-11-23
 categories: project
-tags: intern notebook recommendation data-science
+tags: intern jupyter-notebook recommendation-system data-science
 ---
 
 ## Introduction to Recommender

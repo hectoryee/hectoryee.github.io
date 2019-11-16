@@ -1,10 +1,10 @@
 ---
 title: Job Recommendation Engine with Implicit Feedback
-excerpt: Trying out recommendation engine implementing ALS algorithm.
+excerpt: Trying out recommendation engine implementing Alternating Least Squares(ALS), a very popular algorithm for making recommendations.
 published: true
 date: 2018-11-23
 categories: project
-tags: intern notebook recommendation data-science
+tags: intern jupyter-notebook recommendation-system data-science
 ---
 
 **In [1]:**

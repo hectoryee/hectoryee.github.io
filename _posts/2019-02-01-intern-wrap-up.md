@@ -1,6 +1,6 @@
 ---
 title: Internship at the CADS
-excerpt: Wrap up of my very first internship.
+excerpt: Wrap up of my very first internship. Lessons learnt and future thoughts.
 published: true
 date: 2019-02-01
 categories: blog

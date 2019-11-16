@@ -1,6 +1,6 @@
 ---
 title: Bash Script
-excerpt: Getting to know Bash.
+excerpt: Getting to know Bash. Write and run a bash script.
 published: true
 date: 2019-02-10
 categories: project

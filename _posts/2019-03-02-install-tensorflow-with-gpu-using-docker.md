@@ -4,7 +4,7 @@ excerpt: Docker is the easiest way to enable TensorFlow GPU support on Linux sin
 published: true
 date: 2019-03-02
 categories: project
-tags: notebook tensorflow gpu docker
+tags: jupyter-notebook tensorflow gpu docker
 ---
 
 ## Installing Tensorflow with GPU Support using Docker

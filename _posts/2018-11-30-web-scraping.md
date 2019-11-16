@@ -1,6 +1,6 @@
 ---
 title: About Web Scraping
-excerpt: Some tricks to scrape websites.
+excerpt: Simple tricks to scrape websites like change proxy and user agent.
 published: true
 date: 2018-11-30
 categories: project

@@ -1,6 +1,6 @@
 ---
 title: Using Jekyll
-excerpt: How I use Jekyll.
+excerpt: Running Jekyll, a static blog which can be hosted on github.
 published: true
 date: 2019-02-09
 categories: project
