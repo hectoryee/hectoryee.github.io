@@ -1,6 +1,6 @@
 ---
 title: Fresh Install Ubuntu
-excerpt: Guide for setting up dool-boot ubuntu. Include partition size, post install script, software settings and configure Windows to mount and eject drive.
+excerpt: Guide for setting up dual-boot ubuntu. Include partition size, post install script, software settings and configure Windows to mount and eject drive.
 published: true
 date: 2019-06-24
 categories: project
@@ -98,10 +98,13 @@ Bash script, save to `$home/bin`.
 
 
 #### Download from baidu
-- [baidu-dl](https://chrome.google.com/webstore/detail/baidu-dl/lflnkcmjnhfedgibjackiibmcdnnoadb?hl=en)
+- [BaiduPan Explorer](https://chrome.google.com/webstore/detail/baidupan-explorer/lncbhecjekffklnelbeninpnacopebcp)
+- [Baidu Exporter]
+
 ``` bash
 sudo apt install aria2
 
+aria2c --enable-rpc -j 1
 aria2c --enable-rpc --rpc-listen-all
 ```
 
