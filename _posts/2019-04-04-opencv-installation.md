@@ -1,5 +1,5 @@
 ---
-title: Installing Opencv
+title: Opencv Installation
 excerpt: Installing Opencv 4.0.1 from source.
 published: true
 date: 2019-04-04

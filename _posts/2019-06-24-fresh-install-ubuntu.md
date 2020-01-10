@@ -49,7 +49,7 @@ mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 |  DISK   | PARTITION |   SIZE   |
 |---------+-----------+----------|
 |   SSD   |     /     |   60 Gb  |
-|         |    swap   |   3 Gb  |
+|         |    swap   |   3 Gb   |
 |   HDD   |   /home   |   60 Gb  |
 +---------+-----------+----------+
 ```

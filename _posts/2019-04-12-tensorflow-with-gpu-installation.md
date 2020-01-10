@@ -1,5 +1,5 @@
 ---
-title: Install Tensorflow with GPU
+title: Tensorflow with GPU Installation
 excerpt: Install CUDA 10.0 and cuDNN 7.0 for TensorFlow/PyTorch (GPU) on Ubuntu 18.04.
 published: true
 date: 2019-04-12
@@ -50,7 +50,7 @@ sudo apt install nvidia-driver-VERSION_NUMBER_HERE
 
 To solve
 
-E: Unable to correct problems, you have held broken packages.
+`E: Unable to correct problems, you have held broken packages.`
 
 Try:
 
@@ -67,7 +67,7 @@ sudo service lightdm restart
 
 ## Install CUDA Toolkit
 2.Download [CUDA installer runfile](https://developer.nvidia.com/cuda-downloads). Check version 
-* 10.0.
+* CUDA 10.0
 * 418-10.0
 * 390-9.0
 
@@ -101,7 +101,7 @@ sudo vim /etc/environment
 ```
 Add `:/usr/local/cuda/bin` at the end before the `"`.
 
-8.`reboot`.
+8.Reboot.
 
 ### Test installation
 9.
@@ -165,7 +165,7 @@ Result = PASS
 ```
 
 ## Install cuDNN 7.0
-11.Download from [cuDNN download page](https://developer.nvidia.com/rdp/cudnn-download). Download all three .deb files: runtime lib, developer lib, code samples lib.
+11.Download from [cuDNN download page](https://developer.nvidia.com/cudnn). Download all three .deb files: runtime lib, developer lib, code samples lib.
 
 12.
 

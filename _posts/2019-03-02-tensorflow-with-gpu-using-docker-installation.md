@@ -1,5 +1,5 @@
 ---
-title: Install Tensorflow with GPU using Docker
+title: Tensorflow with GPU Install using Docker
 excerpt: Docker is the easiest way to enable TensorFlow GPU support on Linux since only the NVIDIA® GPU driver is required on the host machine (the NVIDIA® CUDA® Toolkit does not need to be installed).
 published: true
 date: 2019-03-02
