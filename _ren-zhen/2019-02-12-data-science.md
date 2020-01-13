@@ -24,6 +24,7 @@ excerpt: Resources to learn.
     11. Miscellaneous
 - [Data science Python notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
     - Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.
+- [TensorFlow curriculums](https://www.tensorflow.org/resources/learn-ml?gclid=EAIaIQobChMIg6qRhbr_5gIVApGPCh0KOwwzEAAYASAAEgK40vD_BwE)
 - [Comprehensive list of data science resources](https://www.datasciencecentral.com/group/resources/forum/topics/comprehensive-list-of-data-science-resources)
 
 
@@ -173,9 +174,3 @@ excerpt: Resources to learn.
 
 ## Anomaly
 - [Anomaly](https://anomaly.io/blog/)
-
-
-
-## Tensorflow
-- [Docker](https://www.tensorflow.org/install/docker)
-- [Official Docker images: tensorflow/tensorflow](https://hub.docker.com/r/tensorflow/tensorflow/)

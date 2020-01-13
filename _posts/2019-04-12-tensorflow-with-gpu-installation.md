@@ -165,7 +165,7 @@ Result = PASS
 ```
 
 ## Install cuDNN 7.0
-11.Download from [cuDNN download page](https://developer.nvidia.com/cudnn). Download all three .deb files: runtime lib, developer lib, code samples lib.
+11.Download from [cuDNN download page](https://developer.nvidia.com/cudnn). Download all three `.deb` files: runtime lib, developer lib, code samples lib.
 
 12.
 
@@ -182,7 +182,7 @@ sudo dpkg -i libcudnn7-doc_7.5.0.56-1+cuda10.0_amd64.deb
 cp -r /usr/src/cudnn_samples_v7/ ~
 cd ~/cudnn_samples_v7/mnistCUDNN
 make clean && make
-./msnistCUDNN
+./mnistCUDNN
 ```
 
 ## Configure the CUDA and cuDNN library paths
