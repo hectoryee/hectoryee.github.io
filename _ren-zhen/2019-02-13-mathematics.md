@@ -16,6 +16,10 @@ excerpt: Back to basics.
     - Why are deep neural networks hard to train?
     - Deep learning
 
+### Books by [Tensorflow](https://www.tensorflow.org/resources/learn-ml?gclid=EAIaIQobChMIg6qRhbr_5gIVApGPCh0KOwwzEAAYASAAEgK40vD_BwE)
+* [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python#toc)
+* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+
 
 
 ## Getting into Data Science
@@ -64,3 +68,14 @@ Stat 110 recommended.
 
 [American Institute of Mathematics](https://aimath.org/textbooks/approved-textbooks/)
 - [OpenIntro Statistics](https://leanpub.com/user_dashboard/library)
+
+
+
+The four technical core courses:
+
+* AC 209a “Data Science 1: Introduction to Data Science”
+* AC 209b “Data Science 2: Advanced Topics in Data Science”
+* AM 207 “Advanced Scientific Computing: Stochastic Methods for Data Analysis, Inference, and * Optimization”
+* CS 207 “Systems Development for Computational Science”
+
+* AC221 “Critical Thinking in Data Science”
