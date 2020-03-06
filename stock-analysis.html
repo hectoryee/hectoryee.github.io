@@ -1,0 +1,15 @@
+---
+layout: archive
+title: stock-analysis
+redirect_to:
+  - /collection-archive/#stock-analysis
+---
+
+{% for collections in site.stock-analysis %}
+  <h3 class="archive__title">
+    <a href="{{ collections.url }}">
+      {{ collections.title }}
+    </a>
+  </h3>
+  <!-- <div class="archive__item-excerpt">{{ collections.excerpt | markdownify }}</div> -->
+{% endfor %}
