@@ -7,7 +7,7 @@ categories: project
 tags: bash
 ---
 
-## Installing Windows
+## Configuring Windows
 ### [Foobar](https://www.foobar2000.org/encoderpack)
 
 ``` bashcd 
@@ -25,10 +25,13 @@ foo_upn
 
 ### Mountvol
 ```
-{e864ee90-ea3d-43d9-962d-3452d830dd69}
+# list volumes
+mountvol
 
+# eject
 mountvol D: /p
 
+# mount {e864ee90-ea3d-43d9-962d-3452d830dd69}
 mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 ```
 
