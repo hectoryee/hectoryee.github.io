@@ -100,17 +100,6 @@ Bash script, save to `$home/bin`.
 
 
 
-#### Download from baidu
-- [BaiduPan Explorer](https://chrome.google.com/webstore/detail/baidupan-explorer/lncbhecjekffklnelbeninpnacopebcp)
-- [Baidu Exporter]
-
-``` bash
-sudo apt install aria2
-
-aria2c --enable-rpc -j 1
-aria2c --enable-rpc --rpc-listen-all
-```
-
 ### Post install script
 
 {% gist 4ca47b320b0f7e13a16958210eef034c %}
