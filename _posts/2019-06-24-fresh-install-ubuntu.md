@@ -8,6 +8,11 @@ tags: bash
 ---
 
 ## Configuring Windows
+
+### Colours
+annotation highlight color - `#b3ffdb6e`
+
+
 ### [Foobar](https://www.foobar2000.org/encoderpack)
 
 ``` bashcd 
