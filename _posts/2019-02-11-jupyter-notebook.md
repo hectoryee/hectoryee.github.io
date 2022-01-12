@@ -1,7 +1,7 @@
 ---
 title: Jupyter Notebook
 excerpt: My way of using Jupyter Notebook.
-published: true
+published: false
 date: 2019-02-11
 categories: project
 tags: jupyter

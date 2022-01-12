@@ -1,7 +1,7 @@
 ---
 title: Storing Pandas Dataframe
 excerpt: Pandas IO
-published: true
+published: false
 date: 2019-04-16
 categories: project
 tags: python

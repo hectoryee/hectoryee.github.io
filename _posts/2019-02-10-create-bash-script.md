@@ -82,7 +82,7 @@ cd ~/project/wayneyee.github.io
 echo "starting jekyll.."
 bundle exec jekyll serve
 ```
-Add to $home/bin.
+Add to `$home/bin`.
 
 Make file executable `sudo chmod +x filename`.
 
