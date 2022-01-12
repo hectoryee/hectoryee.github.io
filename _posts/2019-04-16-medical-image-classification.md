@@ -3,8 +3,8 @@ title: Medical Image Classification
 excerpt: My Final Year Project.
 published: true
 date: 2019-04-16
-categories: project image
-tags: 
+categories: project
+tags: image python
 ---
 
 ## [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI#a2b592e6fba14f949f6e23bb1b7804cc)

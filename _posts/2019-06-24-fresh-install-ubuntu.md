@@ -4,7 +4,7 @@ excerpt: Guide for setting up dual-boot ubuntu. Include partition size, post ins
 published: true
 date: 2019-06-24
 categories: project
-tags: bash
+tags: bash linux
 ---
 
 ## Configuring Windows

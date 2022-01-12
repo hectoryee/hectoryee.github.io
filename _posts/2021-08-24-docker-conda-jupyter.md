@@ -3,8 +3,8 @@ title: Docker with Conda and Jupyter
 excerpt: Docker with Conda sure is a hassle.
 published: true
 date: 2021-08-24
-categories: bash docker
-tags: 
+categories: project
+tags: bash docker
 classes: wide
 header:
   image: /assets/images/2021-08-24.png

@@ -4,7 +4,7 @@ excerpt: Run jupyter with Tensorflow inside Docker.
 published: true
 date: 2019-03-02
 categories: project
-tags: notebook tensorflow docker
+tags: jupyter tensorflow docker
 ---
 
 ## My Running Version

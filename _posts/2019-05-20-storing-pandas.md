@@ -4,7 +4,7 @@ excerpt: Pandas IO
 published: true
 date: 2019-04-16
 categories: project image
-tags: 
+tags: python
 ---
 
 ## Bookmarks

@@ -4,7 +4,7 @@ excerpt: Install CUDA 10.0 and cuDNN 7.0 for TensorFlow/PyTorch (GPU) on Ubuntu 
 published: true
 date: 2019-04-12
 categories: project
-tags: tensorflow gpu install
+tags: tensorflow gpu
 ---
 
 ## Install NVIDIA Graphics Driver 

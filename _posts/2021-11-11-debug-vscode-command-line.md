@@ -3,8 +3,8 @@ title: Debug Python Module on VS Code from Command Line
 excerpt: Learn debugging on VS code. Not responding on VS code terminal so run debug from command line.
 published: true
 date: 2021-11-11
-categories: bash docker
-tags: 
+categories: project
+tags: bash docker
 classes: wide
 header:
   image: /assets/images/2021-11-11.png

@@ -4,7 +4,7 @@ excerpt: My way of using Jupyter Notebook.
 published: true
 date: 2019-02-11
 categories: project
-tags: jupyter-notebook
+tags: jupyter
 ---
 
 ## [Install packages from Jupyter Notebook](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/)
