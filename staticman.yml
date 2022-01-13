@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+# Name of the property. You can have multiple properties with completely
+# different config blocks for different sections of your site.
+# For example, you can have one property to handle comment submission and
+# another one to handle posts.
+# To encrypt strings use the following endpoint:
+# https://{your Staticman API URL}/v[2|3]/encrypt/{TEXT TO BE ENCRYPTED}
+
+>>>>>>> 2632ff650a6efb0d856a37d675be5f1b63692181
 comments:
   allowedFields     : ['name', 'email', 'url', 'message', "replying_to"]
   branch            : "master"
