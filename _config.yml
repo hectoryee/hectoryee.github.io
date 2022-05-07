@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "dark" #"default"  "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "wei.journal"
+title                    : "wee wee soup"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Xun Wei"
+name                     : "wee wee soup"
 description              : "Just journal."
 url                      : "https://xunweiyee.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : /journal # the subpath of your site, e.g. "/blog"
+baseurl                  : /soup # the subpath of your site, e.g. "/blog"
 repository               : "xunweiyee/xunweiyee.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png"
@@ -104,8 +104,8 @@ analytics:
 author:
   name             : "Xun Wei"
   avatar           : #"/assets/images/hector.jpg"
-  bio              : "Student. Intern."
-  location         : "Somewhere, Malaysia"
+  bio              : "Student."
+  location         : "nowhere"
   email            :
   links:
     - label: "Email"
