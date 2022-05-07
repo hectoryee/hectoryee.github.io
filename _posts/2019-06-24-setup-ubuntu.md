@@ -1,5 +1,5 @@
 ---
-title: Fresh Install Ubuntu
+title: Setup Ubuntu after Booting
 excerpt: Guide for setting up dual-boot ubuntu. Include partition size, post install script, software settings and configure Windows to mount and eject drive.
 published: true
 date: 2019-06-24
@@ -13,19 +13,8 @@ tags: bash linux
 annotation highlight color - `#b3ffdb6e`
 
 
-### [Foobar](https://www.foobar2000.org/encoderpack)
-
-``` bashcd 
-foo_discogs
-foo_dsd_processor
-foo_input_dts
-foo_dsp_xgeg
-foo_input_monkey
-foo_input_sacd
-foo_out_upnp
-foo_upn
-```
-
+### Foobar
+    [%disc number%.][$num(%tracknumber%,2). ]$trim(%title%)[ - %track artist%]
 
 
 ### Mountvol
@@ -41,12 +30,10 @@ mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 ```
 
 
-
-### [Disable autorun]()
+### Disable autorun
 1. Windows key + R -> regedit
 2. HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
 3. Create a new Dword type value with name "NoDriveTypeAutorun". Set value to "FF".
-
 
 
 ## Installing Ubuntu
@@ -56,18 +43,17 @@ mountvol D: \\?\Volume{e864ee90-ea3d-43d9-962d-3452d830dd69}\
 +---------+-----------+----------+
 |  DISK   | PARTITION |   SIZE   |
 |---------+-----------+----------|
-|   SSD   |     /     |   60 Gb  |
-|         |    swap   |   3 Gb   |
+|   SSD   |   /       |   60 Gb  |
+|         |   swap    |   12 Gb  |
 |   HDD   |   /home   |   60 Gb  |
 +---------+-----------+----------+
 ```
 
-Regain ownership of all files run this:
+Change ownership of all files run this:
 
 ``` bash
 sudo chown -R hsunwei /home/hsunwei
 ```
-
 
 
 ### Chinese input
@@ -78,18 +64,10 @@ sudo chown -R hsunwei /home/hsunwei
 5. sudo ibus-setup
 
 
-
-### Installing Anaconda
-[Anaconda Distribution Download](https://www.anaconda.com/distribution/)
-[Recommended change to enable conda in your shell](https://github.com/conda/conda/releases/tag/4.4.0)
-
-
-
 ### Shortcut
 Bash script, save to `$home/bin`.
 
 {% gist https://gist.github.com/xunweiyee/1ae4cced70b75b012d1a69c061619fa1 %}
-
 
 
 ### Useful software
@@ -104,7 +82,6 @@ Bash script, save to `$home/bin`.
 - [WakaTime extension for chrome (jupyter notebookls)](https://chrome.google.com/webstore/detail/wakatime/jnbbnacmeggbgdjgaoojpmhdlkkpblgi?hl=en)
 
 
-
-### Post install script
+### Setup script
 
 {% gist 4ca47b320b0f7e13a16958210eef034c %}
