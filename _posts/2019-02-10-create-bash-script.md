@@ -6,10 +6,49 @@ date: 2019-02-10
 categories: project
 tags: bash
 ---
-## Basic about Bash Script
 
-More on [here](https://www.linux.com/LEARN/WRITING-SIMPLE-BASH-SCRIPT) and [here](http://matt.might.net/articles/bash-by-example/).
+## Shortcut command
+### Simple alias
+``` bash
+alias agi='sudo apt-get install'
+```
+Add line to end of `~/.bashrc` file.
 
+
+### Start a script
+``` bash
+#!/bin/bash
+
+echo "changing directory.."
+cd ~/project/wayneyee.github.io
+echo "starting jekyll.."
+bundle exec jekyll serve
+```
+
+Add to `$home/bin`.
+
+Make file executable `sudo chmod +x filename`.
+
+Add line to end of `~/.bashrc` file.
+``` bash
+export PATH=$PATH:$HOME/bin
+```
+- `export` make variable available for children of this terminal
+- `PATH` work on variable named PATH
+- `=` assign it a new value, which is
+- `$PATH` the old value
+- `:` a separator
+- `$HOME/bin` and your newly created bin directory
+
+Start using the new bashrc file:
+``` bash
+source ~/.bashrc
+```
+
+{% gist 1ae4cced70b75b012d1a69c061619fa1 %}
+
+
+## Bash Script Basics
 [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
 Script starts with a "shebang" for the shell to decide which interpreter to run the script for example bash, tsch, zsh, Perl, Python etc.
@@ -18,10 +57,7 @@ Script starts with a "shebang" for the shell to decide which interpreter to run 
 #!/usr/bin/env python3  #!/path/to/interpreter
 ```
 
-To  set the script executable:
-``` bash
-chmod +x scriptname
-```
+To  set the script executable run `chmod +x scriptname`.
 - `+` - add permission
 - `x` - executable
 
@@ -37,12 +73,14 @@ DESTDIR=/media/diskid/user_backup/Documents/
 rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
 ```
 
+
 ### Taking input
 ``` bash
 #!/bin/bash
 
 echo $1
 ```
+
 ``` bash
 #!/bin/bash
 
@@ -63,45 +101,3 @@ DESTDIR=
 
 rsync --progress -avze ssh --exclude="*.iso" $directory $DESTDIR
 ```
-
-
-## Shortcut command
-
-### Simple alias
-``` bash
-alias agi='sudo apt-get install'
-```
-Add line to end of `~/.bashrc` file.
-
-### Start a script
-``` bash
-#!/bin/bash
-
-echo "changing directory.."
-cd ~/project/wayneyee.github.io
-echo "starting jekyll.."
-bundle exec jekyll serve
-```
-Add to `$home/bin`.
-
-Make file executable `sudo chmod +x filename`.
-
-Add line to end of `~/.bashrc` file.
-``` bash
-export PATH=$PATH:$HOME/bin
-```
-- `export` - make variable available for children of this terminal
-- `PATH` - work on variable named PATH
-- `=` - assign it a new value, which is
-- `$PATH` - the old value
-- `:` - a separator
-- `$HOME/bin` - and your newly created bin directory
-
-More [reading](https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path).
-
-
-Start using the new bashrc file:
-``` bash
-source ~/.bashrc
-```
-{% gist 1ae4cced70b75b012d1a69c061619fa1 %}
