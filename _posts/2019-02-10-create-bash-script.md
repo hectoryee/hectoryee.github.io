@@ -8,14 +8,14 @@ tags: bash
 ---
 
 ## Shortcut command
-### Simple alias
+### 1. Simple alias
 ``` bash
 alias agi='sudo apt-get install'
 ```
 Add line to end of `~/.bashrc` file.
 
 
-### Start a script
+### 2. Start a script
 ``` bash
 #!/bin/bash
 
@@ -45,6 +45,10 @@ Start using the new bashrc file:
 source ~/.bashrc
 ```
 
+
+### 3. Examples
+Add to `$home/bin`.
+
 {% gist 1ae4cced70b75b012d1a69c061619fa1 %}
 
 
@@ -62,7 +66,7 @@ To  set the script executable run `chmod +x scriptname`.
 - `x` - executable
 
 
-### Variables
+### 1. Variables
 ``` bash
 #!/bin/bash
 # rsync using variables
@@ -74,7 +78,7 @@ rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
 ```
 
 
-### Taking input
+### 2. Taking input
 ``` bash
 #!/bin/bash
 
