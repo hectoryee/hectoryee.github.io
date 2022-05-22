@@ -45,14 +45,33 @@ Start using the new bashrc file:
 source ~/.bashrc
 ```
 
-
 ### 1.3. Examples
 Add to `$home/bin`.
 
 {% gist 1ae4cced70b75b012d1a69c061619fa1 %}
 
 
-## 2. Bash Script Basics
+
+## 2. Write to File
+``` bash
+# overwrite
+output > filename 
+# append
+output >> filename 
+```
+
+``` bash
+echo "this is a line" > file.txt
+echo "this is a line" | tee file.txt
+echo "this is a line" | tee -a file.txt
+
+cat << EOF > file.txt
+The current working directory is: $PWD
+EOF
+```
+
+
+## 3. Bash Script Basics
 [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
 Script starts with a "shebang" for the shell to decide which interpreter to run the script for example bash, tsch, zsh, Perl, Python etc.
@@ -62,46 +81,27 @@ Script starts with a "shebang" for the shell to decide which interpreter to run 
 ```
 
 To  set the script executable run `chmod +x scriptname`.
-- `+` - add permission
-- `x` - executable
+- `+` add permission
+- `x` executable
 
 
-### 2.1. Variables
+### 3.1. Variables
 ``` bash
 #!/bin/bash
-# rsync using variables
-
 SOURCEDIR=/home/user/Documents/
-DESTDIR=/media/diskid/user_backup/Documents/
-
-rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
+echo "path" $SOURCEDIR
 ```
 
 
-### 2.2. Taking input
+### 3.2. Taking input
 ``` bash
 #!/bin/bash
-
 echo $1
 ```
 
 ``` bash
 #!/bin/bash
-
 echo -e "Please enter your name: "
 read name
 echo "Nice to meet you $name"
-```
-
-``` bash
-#!/bin/bash
-
-echo -e "What directory would you like to back up?" 
-read directory
-
-DESTDIR=
- This e-mail address is being protected from spambots. You need JavaScript enabled to view it
- :$directory/
-
-rsync --progress -avze ssh --exclude="*.iso" $directory $DESTDIR
 ```
