@@ -7,15 +7,15 @@ categories: project
 tags: bash
 ---
 
-## Shortcut command
-### 1. Simple alias
+## 1. Shortcut command
+### 1.1. Simple alias
 ``` bash
 alias agi='sudo apt-get install'
 ```
 Add line to end of `~/.bashrc` file.
 
 
-### 2. Start a script
+### 1.2. Start a script
 ``` bash
 #!/bin/bash
 
@@ -46,13 +46,13 @@ source ~/.bashrc
 ```
 
 
-### 3. Examples
+### 1.3. Examples
 Add to `$home/bin`.
 
 {% gist 1ae4cced70b75b012d1a69c061619fa1 %}
 
 
-## Bash Script Basics
+## 2. Bash Script Basics
 [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
 Script starts with a "shebang" for the shell to decide which interpreter to run the script for example bash, tsch, zsh, Perl, Python etc.
@@ -66,7 +66,7 @@ To  set the script executable run `chmod +x scriptname`.
 - `x` - executable
 
 
-### 1. Variables
+### 2.1. Variables
 ``` bash
 #!/bin/bash
 # rsync using variables
@@ -78,7 +78,7 @@ rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
 ```
 
 
-### 2. Taking input
+### 2.2. Taking input
 ``` bash
 #!/bin/bash
 
