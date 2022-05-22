@@ -18,7 +18,6 @@ Add line to end of `~/.bashrc` file.
 ### 1.2. Start a script
 ``` bash
 #!/bin/bash
-
 echo "changing directory.."
 cd ~/project/wayneyee.github.io
 echo "starting jekyll.."
