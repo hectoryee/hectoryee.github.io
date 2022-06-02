@@ -67,7 +67,7 @@ sudo chown -R hsunwei /home/hsunwei
 ### Shortcut
 Bash script, save to `$home/bin`.
 
-{% gist https://gist.github.com/xunweiyee/1ae4cced70b75b012d1a69c061619fa1 %}
+{% gist https://gist.github.com/yeexunwei/1ae4cced70b75b012d1a69c061619fa1 %}
 
 
 ### Useful software
