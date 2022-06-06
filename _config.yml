@@ -290,10 +290,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _ren-zhen
+  # _renzhen
   - scope:
       path: ""
-      type: ren-zhen
+      type: renzhen
     values:
       layout: single
       read_time: false
@@ -305,10 +305,10 @@ defaults:
       toc: true
       toc_label: "Table of Contents"
       toc_icon: "cog"
-  # _xian-qing
+  # _xianqing
   - scope:
       path: ""
-      type: xian-qing
+      type: xianqing
     values:
       layout: single
       read_time: false
@@ -323,9 +323,9 @@ defaults:
 
 # Collections
 collections:
-  ren-zhen:
+  renzhen:
     output: true
     permalink: /:collection/:path
-  xian-qing:
+  xianqing:
     output: true
     permalink: /:collection/:path

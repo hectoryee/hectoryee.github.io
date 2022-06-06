@@ -22,28 +22,28 @@ main:
     url: /collection-archive/
 
 collections:
-  - title: ren-zhen
-    url: /collection-archive/#ren-zhen
+  - title: renzhen
+    url: /collection-archive/#renzhen
     children:
       - title: "Data Science"
-        url: /ren-zhen/2019-02-12-data-science
+        url: /renzhen/2019-02-12-data-science
       - title: "Finance"
-        url: /ren-zhen/2019-02-13-finance
+        url: /renzhen/2019-02-13-finance
       - title: "Mathematics"
-        url: /ren-zhen/2019-02-13-mathematics
+        url: /renzhen/2019-02-13-mathematics
 
-  - title: xian-qing
-    url: /collection-archive/#xian-qing
+  - title: xianqing
+    url: /collection-archive/#xianqing
     children:
       - title: "Book"
-        url: /xian-qing/2019-02-13-book
+        url: /xianqing/2019-02-13-book
       - title: "FM"
-        url: /xian-qing/2019-02-13-fm
+        url: /xianqing/2019-02-13-fm
       - title: "Manga"
-        url: /xian-qing/2019-02-13-manga
+        url: /xianqing/2019-02-13-manga
       - title: "Music"
-        url: /xian-qing/2019-02-13-music
+        url: /xianqing/2019-02-13-music
       - title: "Shu Hua"
-        url: /xian-qing/2019-02-13-书画
+        url: /xianqing/2019-02-13-书画
       - title: "Mini Projects"
-        url: /xian-qing/2019-02-14-mini-projects
+        url: /xianqing/2019-02-14-mini-projects
