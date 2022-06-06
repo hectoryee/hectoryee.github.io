@@ -358,21 +358,6 @@ defaults:
       toc: true
       toc_label: "Table of Contents"
       toc_icon: "cog"
-  - scope:
-      path: ""
-      type: stock-analysis
-    values:
-      layout: splash
-      # classes: wide
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "collections"
-      toc: true
-      toc_label: "Table of Contents"
-      toc_icon: "cog"
 
 # Collections
 collections:
@@ -382,11 +367,7 @@ collections:
   xian-qing:
     output: true
     permalink: /:collection/:path
-  stock-analysis:
-    output: true
-    permalink: /:collection/:path
   
-
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
