@@ -1364,4 +1364,4 @@ Factorization](http://www.benfrederickson.com/matrix-factorization/)
 
 ## Jupyter Notebook
 
-{% gist b80625dcc0b9f4fe719166f6e2d29e85 %}
+{% gist cfbacc1773000e91a4d05434b7e99131 job_als.ipynb %}

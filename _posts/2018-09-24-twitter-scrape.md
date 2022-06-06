@@ -242,8 +242,3 @@ Ad this line to cron file.
 ```
 @reboot /path/forever
 ```
-
-## All Codes
-
-{% gist 8fb39e3e3a27d7832678ed16c7803d6d %}
-{% gist 107c73c4a15d72682d7b11266de0e595 %}

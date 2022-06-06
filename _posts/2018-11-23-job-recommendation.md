@@ -3052,4 +3052,4 @@ get_job_id(get_recommendations_userwise(47))
 
 ## Jupyter Notebook
 
-{% gist a9241eaa447549bbc7d4b7a4f3d0ae61 %}
+{% gist cfbacc1773000e91a4d05434b7e99131 job_recommender.ipynb %}
