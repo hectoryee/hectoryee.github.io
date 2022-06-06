@@ -2,7 +2,7 @@
 layout: splash
 title: Sem II 2018/19
 excerpt: Timetable of sem 6.
-published: true
+published: false
 date: 2019-02-10
 categories: blog
 tags: 

@@ -1,7 +1,7 @@
 ---
 title: Rover D Hong Kong Trip
 excerpt: "Five days trip to Kow Loon"
-published: true
+published: false
 date: 2017-07-08
 categories: blog
 tags: 

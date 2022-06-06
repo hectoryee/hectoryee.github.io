@@ -1,7 +1,7 @@
 ---
 title: Endau Rompin Trip Rover D
 excerpt: "Two days trip into Endau Rompin with Rover D."
-published: true
+published: false
 date: 2019-08-06
 categories: blog
 tags: 
